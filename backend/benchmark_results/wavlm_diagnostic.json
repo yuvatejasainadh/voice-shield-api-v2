@@ -1,0 +1,547 @@
+{
+  "score_distribution": {
+    "genuine": {
+      "min": 0.0014161861035972834,
+      "max": 0.9941304326057434,
+      "mean": 0.10077662033727393,
+      "median": 0.001450369309168309,
+      "std": 0.29778463568025615
+    },
+    "spoof": {
+      "min": 0.0014256354188546538,
+      "max": 0.996369481086731,
+      "mean": 0.104150238155853,
+      "median": 0.0018045417382381856,
+      "std": 0.2974806996392672
+    }
+  },
+  "threshold_analysis": [
+    {
+      "threshold": "0.05",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.10",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.15",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.20",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.25",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.30",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.35",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.40",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.45",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.50",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.55",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.60",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.65",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.70",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.75",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.80",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.85",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.90",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    },
+    {
+      "threshold": "0.95",
+      "accuracy": "0.5000",
+      "genuine_accuracy": "0.9000",
+      "spoof_accuracy": "0.1000",
+      "fpr": "0.1000",
+      "fnr": "0.9000",
+      "precision": "0.5000",
+      "recall": "0.1000",
+      "f1": "0.1667"
+    }
+  ],
+  "duration_analysis": [
+    {
+      "filename": "0001.wav",
+      "ground_truth": "genuine",
+      "prob_3s": 0.0014258824521675706,
+      "prob_5s": null,
+      "prob_7s": null,
+      "prob_10s": null
+    },
+    {
+      "filename": "0002.wav",
+      "ground_truth": "genuine",
+      "prob_3s": 0.0018304556142538786,
+      "prob_5s": 0.0014463980915024877,
+      "prob_7s": null,
+      "prob_10s": null
+    },
+    {
+      "filename": "0003.wav",
+      "ground_truth": "genuine",
+      "prob_3s": 0.0014496922958642244,
+      "prob_5s": 0.0014198620337992907,
+      "prob_7s": 0.0014394617173820734,
+      "prob_10s": null
+    },
+    {
+      "filename": "0004.wav",
+      "ground_truth": "genuine",
+      "prob_3s": 0.0014174545649439096,
+      "prob_5s": 0.0014245021156966686,
+      "prob_7s": null,
+      "prob_10s": null
+    },
+    {
+      "filename": "0005.wav",
+      "ground_truth": "genuine",
+      "prob_3s": 0.001756133628077805,
+      "prob_5s": 0.001539780991151929,
+      "prob_7s": 0.001451777177862823,
+      "prob_10s": null
+    },
+    {
+      "filename": "0006.wav",
+      "ground_truth": "genuine",
+      "prob_3s": 0.004194343462586403,
+      "prob_5s": 0.0014346595853567123,
+      "prob_7s": null,
+      "prob_10s": null
+    },
+    {
+      "filename": "0007.wav",
+      "ground_truth": "genuine",
+      "prob_3s": 0.0014442343963310122,
+      "prob_5s": 0.0014318375615403056,
+      "prob_7s": null,
+      "prob_10s": null
+    },
+    {
+      "filename": "0008.wav",
+      "ground_truth": "genuine",
+      "prob_3s": 0.3868940770626068,
+      "prob_5s": 0.004100678954273462,
+      "prob_7s": 0.03511660546064377,
+      "prob_10s": null
+    },
+    {
+      "filename": "0009.wav",
+      "ground_truth": "genuine",
+      "prob_3s": 0.5426374673843384,
+      "prob_5s": 0.0023451417218893766,
+      "prob_7s": 0.0019837466534227133,
+      "prob_10s": null
+    },
+    {
+      "filename": "0010.wav",
+      "ground_truth": "genuine",
+      "prob_3s": 0.013273488730192184,
+      "prob_5s": 0.0017299766186624765,
+      "prob_7s": null,
+      "prob_10s": null
+    },
+    {
+      "filename": "0001.wav",
+      "ground_truth": "spoof",
+      "prob_3s": 0.9973586201667786,
+      "prob_5s": null,
+      "prob_7s": null,
+      "prob_10s": null
+    },
+    {
+      "filename": "0002.wav",
+      "ground_truth": "spoof",
+      "prob_3s": 0.001537757576443255,
+      "prob_5s": 0.0014913524501025677,
+      "prob_7s": 0.0017352739814668894,
+      "prob_10s": null
+    },
+    {
+      "filename": "0003.wav",
+      "ground_truth": "spoof",
+      "prob_3s": 0.0015026782639324665,
+      "prob_5s": 0.001420338056050241,
+      "prob_7s": 0.0014236043207347393,
+      "prob_10s": null
+    },
+    {
+      "filename": "0004.wav",
+      "ground_truth": "spoof",
+      "prob_3s": 0.0019228882156312466,
+      "prob_5s": 0.002069073263555765,
+      "prob_7s": null,
+      "prob_10s": null
+    },
+    {
+      "filename": "0005.wav",
+      "ground_truth": "spoof",
+      "prob_3s": 0.001424123765900731,
+      "prob_5s": 0.0014284763019531965,
+      "prob_7s": 0.0014530918560922146,
+      "prob_10s": null
+    },
+    {
+      "filename": "0006.wav",
+      "ground_truth": "spoof",
+      "prob_3s": 0.9984164237976074,
+      "prob_5s": 0.9944243431091309,
+      "prob_7s": null,
+      "prob_10s": null
+    },
+    {
+      "filename": "0007.wav",
+      "ground_truth": "spoof",
+      "prob_3s": 0.0026613189838826656,
+      "prob_5s": 0.0022328852210193872,
+      "prob_7s": 0.001782640814781189,
+      "prob_10s": null
+    },
+    {
+      "filename": "0008.wav",
+      "ground_truth": "spoof",
+      "prob_3s": 0.0014525770675390959,
+      "prob_5s": 0.0014293743297457695,
+      "prob_7s": null,
+      "prob_10s": null
+    },
+    {
+      "filename": "0009.wav",
+      "ground_truth": "spoof",
+      "prob_3s": 0.0014140219427645206,
+      "prob_5s": 0.0015587169909849763,
+      "prob_7s": null,
+      "prob_10s": null
+    },
+    {
+      "filename": "0010.wav",
+      "ground_truth": "spoof",
+      "prob_3s": 0.0014143006410449743,
+      "prob_5s": 0.0014179176650941372,
+      "prob_7s": 0.0014145106542855501,
+      "prob_10s": null
+    }
+  ],
+  "error_analysis": {
+    "false_positives": [
+      {
+        "filename": "0008.wav",
+        "ground_truth": "genuine",
+        "logit_0": -2.614366292953491,
+        "logit_1": 2.5177206993103027,
+        "probability_0": 0.005869571585208178,
+        "probability_1": 0.9941304326057434,
+        "predicted_class": "spoof",
+        "correct": false,
+        "spoof_probability": 0.9941304326057434,
+        "bonafide_probability": 0.005869571585208178,
+        "duration": 7.7161875,
+        "max_amp": 0.53155517578125,
+        "rms": 0.05675724521279335
+      }
+    ],
+    "false_negatives": [
+      {
+        "filename": "0001.wav",
+        "ground_truth": "spoof",
+        "logit_0": 2.278733015060425,
+        "logit_1": -2.2764697074890137,
+        "probability_0": 0.9895970225334167,
+        "probability_1": 0.010403011925518513,
+        "predicted_class": "genuine",
+        "correct": false,
+        "spoof_probability": 0.010403011925518513,
+        "bonafide_probability": 0.9895970225334167,
+        "duration": 4.6904375,
+        "max_amp": 0.5177001953125,
+        "rms": 0.05717489495873451
+      },
+      {
+        "filename": "0002.wav",
+        "ground_truth": "spoof",
+        "logit_0": 3.1895389556884766,
+        "logit_1": -3.165637969970703,
+        "probability_0": 0.9982653260231018,
+        "probability_1": 0.0017347134416922927,
+        "predicted_class": "genuine",
+        "correct": false,
+        "spoof_probability": 0.0017347134416922927,
+        "bonafide_probability": 0.9982653260231018,
+        "duration": 7.186625,
+        "max_amp": 0.61260986328125,
+        "rms": 0.05316741019487381
+      },
+      {
+        "filename": "0003.wav",
+        "ground_truth": "spoof",
+        "logit_0": 3.2969303131103516,
+        "logit_1": -3.2547810077667236,
+        "probability_0": 0.9985743761062622,
+        "probability_1": 0.0014256354188546538,
+        "predicted_class": "genuine",
+        "correct": false,
+        "spoof_probability": 0.0014256354188546538,
+        "bonafide_probability": 0.9985743761062622,
+        "duration": 7.267875,
+        "max_amp": 0.46051025390625,
+        "rms": 0.053202126175165176
+      },
+      {
+        "filename": "0004.wav",
+        "ground_truth": "spoof",
+        "logit_0": 1.8681455850601196,
+        "logit_1": -1.8696225881576538,
+        "probability_0": 0.9767464399337769,
+        "probability_1": 0.02325357496738434,
+        "predicted_class": "genuine",
+        "correct": false,
+        "spoof_probability": 0.02325357496738434,
+        "bonafide_probability": 0.9767464399337769,
+        "duration": 6.6525625,
+        "max_amp": 0.393646240234375,
+        "rms": 0.043437063694000244
+      },
+      {
+        "filename": "0005.wav",
+        "ground_truth": "spoof",
+        "logit_0": 3.2935049533843994,
+        "logit_1": -3.2523632049560547,
+        "probability_0": 0.9985660910606384,
+        "probability_1": 0.0014339779736474156,
+        "predicted_class": "genuine",
+        "correct": false,
+        "spoof_probability": 0.0014339779736474156,
+        "bonafide_probability": 0.9985660910606384,
+        "duration": 7.952875,
+        "max_amp": 0.49896240234375,
+        "rms": 0.052939724177122116
+      },
+      {
+        "filename": "0007.wav",
+        "ground_truth": "spoof",
+        "logit_0": 3.1467270851135254,
+        "logit_1": -3.1308794021606445,
+        "probability_0": 0.9981256127357483,
+        "probability_1": 0.0018743700347840786,
+        "predicted_class": "genuine",
+        "correct": false,
+        "spoof_probability": 0.0018743700347840786,
+        "bonafide_probability": 0.9981256127357483,
+        "duration": 8.452125,
+        "max_amp": 0.494659423828125,
+        "rms": 0.0455833375453949
+      },
+      {
+        "filename": "0008.wav",
+        "ground_truth": "spoof",
+        "logit_0": 3.292602300643921,
+        "logit_1": -3.2523772716522217,
+        "probability_0": 0.9985647797584534,
+        "probability_1": 0.0014352505095303059,
+        "predicted_class": "genuine",
+        "correct": false,
+        "spoof_probability": 0.0014352505095303059,
+        "bonafide_probability": 0.9985647797584534,
+        "duration": 6.2578125,
+        "max_amp": 0.432891845703125,
+        "rms": 0.05001334846019745
+      },
+      {
+        "filename": "0009.wav",
+        "ground_truth": "spoof",
+        "logit_0": 3.0746419429779053,
+        "logit_1": -3.0731847286224365,
+        "probability_0": 0.9978664517402649,
+        "probability_1": 0.0021335617639124393,
+        "predicted_class": "genuine",
+        "correct": false,
+        "spoof_probability": 0.0021335617639124393,
+        "bonafide_probability": 0.9978664517402649,
+        "duration": 5.526375,
+        "max_amp": 0.380279541015625,
+        "rms": 0.05372156575322151
+      },
+      {
+        "filename": "0010.wav",
+        "ground_truth": "spoof",
+        "logit_0": 3.291250467300415,
+        "logit_1": -3.2512524127960205,
+        "probability_0": 0.9985612034797668,
+        "probability_1": 0.0014388044364750385,
+        "predicted_class": "genuine",
+        "correct": false,
+        "spoof_probability": 0.0014388044364750385,
+        "bonafide_probability": 0.9985612034797668,
+        "duration": 8.9629375,
+        "max_amp": 0.47393798828125,
+        "rms": 0.049400392919778824
+      }
+    ]
+  }
+}

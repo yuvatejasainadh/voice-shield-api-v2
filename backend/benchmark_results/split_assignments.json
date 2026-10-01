@@ -1,0 +1,10002 @@
+[
+  {
+    "filename": "LJ001-0003_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0006_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0011.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0017_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0018_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0024_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0025_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0031_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0036_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0038_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0040_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0042.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0047_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0054_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0059_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0066_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0070_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0072_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0080_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0089_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0095_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0097_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0101_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0106_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0110_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0111_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0114_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0117_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0118_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0137_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0145_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0147_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0151_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0155_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0175.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0176.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0177_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0181_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0182_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0183_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0004_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0011_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0034_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0037_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0039_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0050_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0051_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0055_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0056_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0064_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0067_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0068_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0080.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0084_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0094_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0095_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0096.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0096_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0097_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0105_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0106_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0128_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0129_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0133_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0137_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0154_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0162_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0169.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0175_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0180_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0182_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0199_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0207_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0210_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0215_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0218_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0220.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0243.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0243_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0249_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0256_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0257_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0263_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0265_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0267_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0269.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0269_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0270_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0276_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0280_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0286_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0294_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0300_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0309_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0318_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0337_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ002-0338_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0003_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0005_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0006_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0007_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0012_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0015.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0018_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0023_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0024_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0025_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0035_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0040_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0042_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0043_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0051_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0055_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0057_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0063_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0065_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0076_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0080_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0096_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0102_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0111_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0114_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0115_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0119_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0121_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0122_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0123_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0124_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0125_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0126_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0135_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0136_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0140_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0156_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0165_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0178_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0180_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0192.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0210_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0214_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0215_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0216.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0223_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0232_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0234_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0246_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0251.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0253_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0255_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0258_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0263_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0269.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0273_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0274_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0275_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0276_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0277_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0292.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0300_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0305_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0306_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0307_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0308_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0310_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0314_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0319_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0324_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0329_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0330_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0346_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ003-0349_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0002_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0003.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0003_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0005_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0006_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0010_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0011_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0015_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0018_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0028_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0031_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0032_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0043_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0044_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0051_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0057_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0060_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0064_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0074_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0082_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0083_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0084_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0091_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0092_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0101_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0102_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0105_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0107_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0119.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0119_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0124_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0130_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0132_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0141_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0144_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0153_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0190_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0203_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0211_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0223_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0225_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0230_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0236.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ004-0247_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ005-0001_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ005-0003_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ005-0015_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ005-0019_generated.wav",
+    "label": "spoof",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ005-0035.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ005-0122.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ005-0165.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ005-0198.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ005-0199.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ005-0221.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ005-0237.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ005-0285.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ006-0203.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ006-0279.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ007-0026.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ007-0122.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ007-0161.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ008-0085.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ008-0141.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ008-0206.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ008-0213.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ008-0275.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ008-0315.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ009-0136.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ009-0149.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ009-0244.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ010-0008.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ010-0017.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ010-0122.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ010-0129.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ010-0243.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ010-0253.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ010-0313.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ011-0136.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ011-0230.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ011-0246.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ011-0268.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ011-0276.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ012-0089.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ012-0099.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ012-0280.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ012-0287.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ013-0018.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ013-0077.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ013-0237.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ014-0075.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ014-0196.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ014-0263.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ014-0283.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ015-0093.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ015-0169.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ015-0198.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ015-0238.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ015-0251.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ016-0264.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ016-0322.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ016-0373.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ016-0376.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ017-0014.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ017-0030.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ017-0047.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ017-0083.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ017-0098.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ017-0163.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ017-0196.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ017-0270.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ018-0044.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ018-0121.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ018-0192.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ018-0299.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ019-0279.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ019-0288.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ019-0337.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ019-0343.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ019-0377.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ019-0385.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ020-0014.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ020-0083.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ020-0100.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ021-0009.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ021-0017.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ021-0103.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ021-0159.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ021-0166.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ021-0169.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ022-0077.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ022-0117.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ022-0132.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ022-0195.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ023-0036.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ024-0065.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ024-0107.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ026-0053.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ026-0138.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ027-0082.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ027-0124.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ027-0127.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ028-0020.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ028-0023.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ028-0034.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ028-0041.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ028-0049.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ028-0077.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ028-0092.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ028-0217.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ028-0223.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ028-0276.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ028-0429.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ029-0004.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ029-0082.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ029-0100.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ031-0081.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ031-0144.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ031-0152.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ032-0071.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ032-0149.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ032-0181.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ033-0023.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ033-0077.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ033-0118.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ033-0151.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ033-0196.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ034-0063.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ034-0064.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ034-0071.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ034-0076.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ034-0116.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ035-0105.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ035-0176.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ035-0188.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ035-0194.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ036-0008.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ036-0030.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ036-0075.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ036-0137.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ036-0187.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ037-0083.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ037-0090.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ037-0214.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ037-0224.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ037-0246.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ038-0009.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ038-0013.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ038-0030.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ038-0084.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ038-0091.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ038-0214.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ038-0248.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ039-0050.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ039-0121.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ039-0134.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ040-0086.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ040-0087.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ040-0191.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ040-0232.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ041-0029.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ041-0067.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ041-0142.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ042-0007.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ042-0024.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ042-0025.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ042-0125.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ042-0131.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ042-0225.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ043-0045.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ043-0051.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ043-0119.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ044-0047.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ044-0081.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ044-0153.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ044-0175.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ045-0045.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ045-0071.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ045-0187.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ046-0237.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ047-0146.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ047-0212.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ048-0111.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ048-0144.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ048-0221.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ049-0206.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ050-0020.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ050-0065.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ050-0152.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ050-0229.wav",
+    "label": "genuine",
+    "split": "dev"
+  },
+  {
+    "filename": "LJ001-0005_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0016_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0021_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0029_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0033_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0035.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0041_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0042_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0048_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0052_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0057_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0065_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0069_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0071_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0083_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0102_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0128_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0130_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0131_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0135_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0139_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0142_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0149_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0157_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0162.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0166_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0169_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0003_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0013_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0015_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0016_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0028_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0036_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0043_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0046_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0048_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0054.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0054_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0057_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0072_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0073_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0080_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0087_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0093_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0102_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0103_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0104_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0112_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0113_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0118_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0121_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0122_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0135.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0145_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0146_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0165_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0176_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0184.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0194_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0196_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0206_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0217_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0226_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0227_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0230_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0237_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0242_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0246_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0247_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0253_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0258_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0259_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0273_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0292_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0293_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0295_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0302_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0307_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0314_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0319_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0321_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0323.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0325_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0326_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0327_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0331.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0334_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0335_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ002-0336_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0013_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0014_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0015_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0016_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0020_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0027_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0031_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0041_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0045_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0048_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0049_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0053_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0066.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0068_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0070_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0072_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0073_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0074_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0085_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0088_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0089_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0091_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0095_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0098_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0103_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0105_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0107_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0112_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0133_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0138_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0159_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0160_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0161_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0163_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0166_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0169_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0171_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0175_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0186.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0187_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0199_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0202_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0205.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0208_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0212_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0219_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0224_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0229_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0235_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0238_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0240.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0247_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0251_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0266.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0269_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0278_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0283.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0285_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0286_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0294_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0299_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0304_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0317_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0318_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0331_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0333_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0334_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0337_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0338_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0342_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ003-0343_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0001_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0007_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0009_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0020_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0024_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0025_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0030_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0036_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0037_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0038_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0041_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0055_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0059.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0069_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0072_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0077_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0087_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0094_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0097_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0113_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0118_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0136_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0139_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0142_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0152_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0154_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0161_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0169_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0171_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0182_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0183_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0184_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0187_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0189_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0193_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0197_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0199_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0202_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0204_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0212_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0218_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0224_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0228_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0235_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0236_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0237_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0240_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ004-0244_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ005-0002_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ005-0007_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ005-0008_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ005-0010_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ005-0013_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ005-0022_generated.wav",
+    "label": "spoof",
+    "split": "val"
+  },
+  {
+    "filename": "LJ005-0124.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ006-0068.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ006-0085.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ006-0104.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ006-0177.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ006-0237.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ006-0253.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ007-0036.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ007-0192.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ007-0237.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ008-0032.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ008-0259.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ009-0003.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ009-0016.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ009-0017.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ009-0108.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ009-0137.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ009-0268.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ009-0278.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ009-0290.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ010-0073.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ010-0147.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ011-0032.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ011-0040.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ011-0110.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ011-0175.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ011-0224.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ012-0048.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ012-0058.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ012-0085.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ012-0195.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ012-0204.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ012-0225.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ012-0236.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ012-0238.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ013-0185.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ013-0208.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ014-0103.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ014-0205.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ015-0061.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ015-0079.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ015-0151.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ015-0249.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ016-0045.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ016-0053.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ016-0072.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ016-0216.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ016-0255.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ016-0278.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ016-0283.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ016-0333.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ016-0411.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ016-0419.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ017-0111.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ018-0029.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ018-0035.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ018-0050.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ018-0141.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ018-0186.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ018-0233.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ018-0307.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ018-0346.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ019-0016.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ019-0036.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ019-0045.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ019-0212.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ019-0215.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ019-0259.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ020-0045.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ020-0050.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ020-0059.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ020-0078.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ020-0085.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ021-0047.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ021-0055.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ021-0160.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ021-0185.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ022-0026.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ022-0050.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ022-0109.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ023-0043.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ023-0099.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ023-0132.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ023-0135.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ023-0136.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ025-0086.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ025-0111.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ025-0119.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ025-0133.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ026-0050.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ026-0099.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ026-0142.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ026-0153.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ027-0001.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ027-0094.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ028-0213.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ028-0253.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ028-0471.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ028-0481.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ028-0485.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ029-0001.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ029-0012.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ029-0029.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ029-0050.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ029-0069.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ029-0208.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ030-0200.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ030-0239.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ031-0060.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ031-0136.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ032-0009.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ032-0093.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ032-0134.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ032-0205.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ032-0215.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ033-0027.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ033-0056.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ034-0037.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ034-0130.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ034-0186.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ034-0189.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ035-0056.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ035-0101.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ035-0131.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ036-0121.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ036-0131.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ037-0093.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ037-0098.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ037-0100.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ037-0118.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ037-0125.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ037-0173.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ037-0186.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ037-0241.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ038-0040.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ038-0050.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ038-0277.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ039-0021.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ039-0026.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ039-0115.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ039-0210.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ039-0217.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ039-0244.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ040-0081.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ040-0208.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ041-0102.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ041-0119.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ041-0154.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ042-0054.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ042-0147.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ042-0205.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ044-0011.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ044-0030.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ044-0228.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ044-0237.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ045-0063.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ045-0179.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ045-0240.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ046-0011.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ046-0108.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ046-0112.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ046-0184.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ046-0185.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ046-0187.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ046-0211.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ046-0233.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ046-0253.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ047-0037.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ047-0057.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ047-0140.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ047-0164.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ047-0221.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ048-0047.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ048-0143.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ048-0191.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ049-0074.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ049-0121.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ049-0135.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ049-0147.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ049-0165.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ050-0052.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ050-0098.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ050-0099.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ050-0125.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ050-0142.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ050-0265.wav",
+    "label": "genuine",
+    "split": "val"
+  },
+  {
+    "filename": "LJ001-0001_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0004.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0004_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0007_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0009_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0010_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0011_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0012_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0014_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0015_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0019_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0020_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0022_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0023_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0024.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0026_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0027_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0028_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0030_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0032_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0034_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0035_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0037_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0044_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0046_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0049_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0050_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0051_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0053_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0055_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0056_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0058_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0060_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0062_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0063_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0064_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0067_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0068_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0073_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0074_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0075.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0075_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0076_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0077_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0079_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0080.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0081_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0082_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0084_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0085_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0086_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0087_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0088_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0091_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0092_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0093_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0094_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0096_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0098_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0099_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0100_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0103_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0105_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0108_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0109_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0112_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0113_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0115_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0116_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0119_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0120.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0120_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0121_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0122_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0124_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0127_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0132_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0133_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0134_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0136_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0138_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0140_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0143_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0144_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0145.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0146_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0148_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0150_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0151.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0152_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0153.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0153_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0154_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0156.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0156_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0158_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0159_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0161_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0162_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0163_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0164_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0167_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0168_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0171_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0172_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0173_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0175_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0176_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0178_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0180_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0184_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ001-0186_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0001_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0006_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0008_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0010_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0014_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0017_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0018_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0021_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0022_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0024_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0025_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0026_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0027_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0030_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0031_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0033_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0038.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0038_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0040.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0040_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0041_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0042_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0047_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0049_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0052_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0053_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0058_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0059_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0060_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0061_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0062.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0062_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0063_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0066_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0070_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0071_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0074_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0075.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0075_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0077_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0078_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0079_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0081_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0082_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0085_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0086_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0088_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0089_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0090_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0091_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0092_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0098_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0099_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0100_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0101_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0104.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0107_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0108.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0108_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0110_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0111_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0113.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0116_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0117_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0120_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0123_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0124_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0126_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0127_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0130_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0132_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0134_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0135_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0138_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0140_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0141_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0143_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0144_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0147_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0148_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0149_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0152_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0156_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0157_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0158_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0159_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0160_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0161_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0162.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0163_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0164_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0166_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0167_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0168_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0169_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0170.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0170_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0171_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0172_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0173_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0174_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0177_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0178_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0179_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0181_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0183_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0184_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0185_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0186_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0187_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0188_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0189_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0190_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0192.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0192_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0193_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0195_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0197_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0200_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0201_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0203_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0204_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0205_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0209_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0211_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0212_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0214_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0219.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0219_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0220_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0221_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0222_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0224_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0225_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0227.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0228_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0229_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0231_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0232_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0233_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0235_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0238_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0240_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0241_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0244_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0245_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0248_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0251_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0252_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0254_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0255_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0260_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0261_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0262_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0264_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0266_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0268_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0271_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0272_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0274_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0277_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0278_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0279_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0282_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0283_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0284_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0285_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0288_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0289_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0290_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0291_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0296_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0297_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0299_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0301_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0303_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0304_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0305_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0306_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0308_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0310_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0312_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0313_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0315_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0316_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0317_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0320_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0322_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0323_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0324_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0328_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0329_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0330_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0331_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0332.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0332_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ002-0333_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0001_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0002_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0008_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0009_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0010_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0011_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0012.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0021_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0026_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0029_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0030_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0032_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0033_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0036_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0037_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0038_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0039_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0046_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0047_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0052_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0054_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0056_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0059_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0060_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0062_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0064_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0066_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0069_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0071_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0075_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0077_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0078_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0079_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0081_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0082_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0083_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0084.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0084_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0086_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0087_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0090_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0092_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0093_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0094_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0097_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0099_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0100_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0101_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0108_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0109_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0110_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0115.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0116_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0117_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0118_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0127_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0128_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0130_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0131_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0132_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0139_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0141_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0143_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0144_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0145_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0146_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0147_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0148_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0149_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0150_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0151_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0152_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0153_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0154_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0155_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0157_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0158_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0162_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0167_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0168_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0170_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0173_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0174_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0176_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0177.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0177_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0179_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0181_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0182_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0183_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0184_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0185_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0186_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0188_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0189_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0190_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0191.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0191_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0192_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0193.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0193_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0194_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0195_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0196_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0198_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0201.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0201_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0203_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0204_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0205_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0206_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0207_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0209.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0209_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0211_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0213_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0216_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0217_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0218.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0218_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0219.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0221_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0222_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0224.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0226_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0227_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0230_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0231_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0232.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0233_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0236_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0237_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0239_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0240_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0242_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0243_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0244_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0245_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0248_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0249_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0250_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0252_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0254_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0255.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0256_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0257_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0260_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0261_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0262_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0264.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0264_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0265_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0266_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0267_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0268_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0270_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0280_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0282_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0283_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0288_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0290_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0291_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0292_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0293_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0294.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0295_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0296_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0298_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0301_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0302_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0303_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0309_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0311_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0312_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0313_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0315_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0316_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0321_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0322.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0322_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0323_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0325_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0326_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0327_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0328_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0332_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0335_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0336_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0340.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0340_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0341.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0341_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0344_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0345_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0346.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0347_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0348_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ003-0349.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0004_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0011.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0013_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0014_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0016_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0017_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0019_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0021_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0022_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0023_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0025.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0026_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0029_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0033_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0034_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0035_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0039_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0045_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0046_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0047_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0048_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0049_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0050_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0056_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0058_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0059_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0062_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0063_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0065_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0066_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0067_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0068_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0070_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0071_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0073_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0075_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0076.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0076_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0078_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0079_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0080_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0085_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0086.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0086_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0088_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0089_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0090_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0093_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0095_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0096_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0098.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0098_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0100_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0102.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0103_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0104.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0104_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0106_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0108_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0110_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0111_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0112_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0115_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0116_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0120_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0121_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0122_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0125_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0128_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0131_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0133_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0134_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0135_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0138_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0140_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0145_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0146_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0147_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0148_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0149_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0155_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0157_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0158_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0159_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0162_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0163_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0164_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0165_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0166_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0168_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0170_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0172_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0173_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0174_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0176_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0177_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0178.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0178_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0180_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0181_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0185_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0186_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0188.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0188_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0195_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0198_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0200_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0205_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0207_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0208.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0208_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0209_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0210_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0213_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0214_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0215_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0216_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0217_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0219_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0220_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0222_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0224.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0226_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0227_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0229_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0231_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0232_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0233_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0234_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0238_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0242_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0245_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0246_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0248_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0249_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ004-0250_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0005.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0005_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0006_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0009_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0011_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0012_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0016_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0017_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0018_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0020_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0021_generated.wav",
+    "label": "spoof",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0044.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0108.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0117.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0138.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0144.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0167.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0173.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0201.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0208.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0233.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0234.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ005-0296.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0019.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0025.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0035.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0044.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0058.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0109.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0110.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0167.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0194.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0218.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0243.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0265.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0268.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ006-0284.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ007-0029.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ007-0077.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ007-0124.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ007-0128.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ007-0152.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ007-0189.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ007-0216.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ007-0220.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ007-0225.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ007-0231.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ007-0234.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ007-0235.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0006.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0013.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0038.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0045.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0057.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0078.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0081.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0124.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0136.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0242.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0243.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0253.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0279.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0286.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ008-0302.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0007.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0042.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0048.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0053.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0063.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0091.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0092.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0103.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0105.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0114.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0120.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0124.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0229.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0251.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0254.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0258.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ009-0289.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ010-0001.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ010-0047.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ010-0062.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ010-0166.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ010-0170.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ010-0173.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ010-0196.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ010-0198.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ010-0204.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ010-0252.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ010-0315.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0005.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0050.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0074.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0076.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0087.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0108.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0117.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0126.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0137.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0160.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0184.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0187.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0188.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0190.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0216.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0290.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ011-0292.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0003.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0017.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0109.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0127.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0145.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0189.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0208.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0210.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0230.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0242.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0256.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0257.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0266.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ012-0296.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ013-0013.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ013-0027.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ013-0058.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ013-0085.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ013-0114.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ013-0155.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ013-0164.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ013-0170.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ013-0226.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ013-0234.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ013-0235.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ013-0236.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ013-0257.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0007.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0027.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0028.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0065.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0073.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0084.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0086.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0106.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0117.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0123.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0147.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0154.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0159.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0165.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0168.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0177.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0224.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0239.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0247.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0273.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0291.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0313.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0318.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0322.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0326.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0335.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ014-0336.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0004.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0020.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0034.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0065.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0088.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0094.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0099.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0109.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0133.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0149.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0185.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0206.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0229.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0233.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0295.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0298.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0307.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ015-0308.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0006.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0008.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0061.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0068.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0075.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0108.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0118.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0127.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0222.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0227.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0241.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0276.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0277.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0300.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0325.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0332.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0335.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0352.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0428.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ016-0431.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0002.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0026.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0043.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0078.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0104.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0106.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0121.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0164.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0165.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0171.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0219.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0230.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0243.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0249.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0274.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0280.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ017-0283.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0021.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0060.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0078.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0087.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0128.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0146.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0148.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0165.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0169.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0187.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0195.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0209.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0211.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0269.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0277.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0285.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0320.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0367.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0373.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ018-0380.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ019-0076.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ019-0123.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ019-0125.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ019-0141.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ019-0156.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ019-0192.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ019-0289.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ019-0306.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ019-0386.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ019-0387.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ019-0390.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ019-0397.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ020-0087.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ021-0030.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ021-0051.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ021-0053.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ021-0090.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ021-0101.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ021-0116.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ021-0123.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ021-0143.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ021-0149.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ021-0202.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ022-0020.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ022-0105.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ022-0110.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ022-0119.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ022-0138.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ022-0177.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ022-0187.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ022-0197.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ023-0038.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ023-0079.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ023-0126.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ024-0049.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ024-0088.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ024-0092.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ024-0100.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ025-0029.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ025-0061.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ025-0067.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ025-0079.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ025-0088.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ025-0092.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ025-0124.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ025-0138.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ026-0031.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ026-0036.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ026-0098.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ026-0110.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ026-0119.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ026-0131.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ027-0047.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ027-0055.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ027-0080.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ027-0147.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ027-0167.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ027-0171.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0142.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0152.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0169.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0203.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0212.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0272.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0287.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0310.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0314.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0324.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0334.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0343.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0357.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0372.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0406.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0414.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0416.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0418.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0425.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0428.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0434.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0463.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ028-0492.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0019.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0023.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0049.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0056.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0067.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0077.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0081.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0094.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0111.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0114.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0119.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0122.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0124.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ029-0172.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ030-0010.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ030-0032.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ030-0068.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ030-0077.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ030-0078.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ030-0114.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ030-0121.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ030-0157.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ030-0178.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ030-0198.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ030-0234.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ031-0019.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ031-0031.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ031-0043.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ031-0044.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ031-0053.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ031-0078.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ031-0119.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ031-0142.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ031-0175.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ031-0176.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ031-0216.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0025.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0054.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0096.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0114.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0136.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0148.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0177.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0206.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0211.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0244.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0249.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0252.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0263.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ032-0269.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ033-0016.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ033-0029.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ033-0039.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ033-0049.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ033-0059.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ033-0108.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ033-0130.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ033-0141.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ033-0167.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ033-0168.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ033-0181.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ033-0202.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ033-0208.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ034-0004.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ034-0010.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ034-0016.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ034-0056.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ034-0142.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ034-0152.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ034-0159.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ034-0197.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ034-0201.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ034-0210.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ035-0011.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ035-0035.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ035-0064.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ035-0077.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ035-0087.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ035-0110.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ035-0117.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ035-0125.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ036-0017.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ036-0031.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ036-0052.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ036-0073.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ036-0079.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ036-0100.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ036-0150.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ036-0162.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ036-0169.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ036-0198.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ036-0208.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ036-0209.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ037-0080.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ037-0095.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ037-0106.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ037-0112.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ037-0139.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ037-0167.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ037-0189.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ037-0206.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ037-0218.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ037-0223.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ038-0011.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ038-0100.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ038-0191.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ038-0222.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ038-0225.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ038-0266.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ038-0281.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ038-0292.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ039-0014.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ039-0048.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ039-0066.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ039-0182.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ039-0199.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ039-0207.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ040-0039.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ040-0120.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ040-0121.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ040-0128.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ040-0138.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ040-0175.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ040-0188.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ040-0221.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ040-0234.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ040-0238.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0042.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0052.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0080.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0084.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0087.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0095.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0104.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0115.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0134.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0146.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0153.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0183.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0189.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ041-0203.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ042-0045.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ042-0050.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ042-0074.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ042-0092.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ042-0113.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ042-0132.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ042-0156.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ042-0176.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ042-0208.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ042-0219.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ043-0048.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ043-0049.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ043-0089.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ043-0126.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ043-0136.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0001.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0006.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0018.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0026.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0052.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0057.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0062.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0092.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0121.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0162.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0183.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0185.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0196.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ044-0236.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ045-0035.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ045-0112.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ045-0129.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ045-0136.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ045-0140.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ045-0144.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ045-0247.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ045-0249.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0001.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0002.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0021.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0049.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0053.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0068.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0071.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0090.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0110.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0115.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0125.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0144.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0150.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0160.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0166.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0169.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0173.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0190.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0206.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ046-0226.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ047-0036.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ047-0044.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ047-0090.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ047-0166.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ047-0171.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ047-0181.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ047-0193.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ047-0209.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ047-0225.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ047-0235.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ047-0250.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ048-0035.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ048-0039.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ048-0055.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ048-0071.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ048-0090.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ048-0169.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ048-0184.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ048-0208.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ048-0269.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ048-0274.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ049-0035.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ049-0059.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ049-0146.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ049-0149.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ049-0167.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ049-0173.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ049-0208.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ050-0001.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ050-0016.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ050-0080.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ050-0091.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ050-0114.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ050-0128.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ050-0136.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ050-0154.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ050-0189.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ050-0199.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ050-0249.wav",
+    "label": "genuine",
+    "split": "test"
+  },
+  {
+    "filename": "LJ050-0260.wav",
+    "label": "genuine",
+    "split": "test"
+  }
+]

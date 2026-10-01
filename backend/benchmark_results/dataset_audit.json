@@ -1,0 +1,89 @@
+{
+  "total_files": 2007,
+  "genuine_count": 1007,
+  "spoof_count": 1000,
+  "corrupted_count": 0,
+  "corrupted_files": [],
+  "readable_count": 2007,
+  "sample_rate_distribution": {
+    "16000": 2007
+  },
+  "channel_distribution": {
+    "1": 2007
+  },
+  "duration_stats_all": {
+    "min": 4.001,
+    "max": 10.09625,
+    "mean": 7.176128954907822,
+    "median": 7.19375,
+    "p5": 4.4305625,
+    "p25": 5.8318125,
+    "p75": 8.5985625,
+    "p95": 9.803862499999997,
+    "std": 1.6762507648209495
+  },
+  "duration_stats_genuine": {
+    "min": 4.001,
+    "max": 10.09625,
+    "mean": 7.215276005461768,
+    "median": 7.2285625,
+    "p5": 4.4305625,
+    "p25": 5.89921875,
+    "p75": 8.60434375,
+    "p95": 9.8291875,
+    "std": 1.6675763960700098
+  },
+  "duration_stats_spoof": {
+    "min": 4.0055,
+    "max": 10.089125,
+    "mean": 7.136707875,
+    "median": 7.1691875,
+    "p5": 4.43448125,
+    "p25": 5.7818125,
+    "p75": 8.5914375,
+    "p95": 9.71814375,
+    "std": 1.6840213819828667
+  },
+  "file_size_stats": {
+    "min": 128076.0,
+    "max": 323124.0,
+    "mean": 229680.12655705033,
+    "median": 230244.0,
+    "p5": 141822.0,
+    "p25": 186662.0,
+    "p75": 275198.0,
+    "p95": 313767.6,
+    "std": 53640.02447427039
+  },
+  "duplicate_hash_groups": 7,
+  "duplicate_details": [
+    [
+      "testvoices\\genuine\\LJ001-0004 - Copy.wav",
+      "testvoices\\genuine\\LJ001-0004.wav"
+    ],
+    [
+      "testvoices\\genuine\\LJ001-0024 - Copy.wav",
+      "testvoices\\genuine\\LJ001-0024.wav"
+    ],
+    [
+      "testvoices\\genuine\\LJ001-0075 - Copy.wav",
+      "testvoices\\genuine\\LJ001-0075.wav"
+    ],
+    [
+      "testvoices\\genuine\\LJ002-0269 - Copy.wav",
+      "testvoices\\genuine\\LJ002-0269.wav"
+    ],
+    [
+      "testvoices\\genuine\\LJ003-0191 - Copy.wav",
+      "testvoices\\genuine\\LJ003-0191.wav"
+    ],
+    [
+      "testvoices\\genuine\\LJ003-0205 - Copy.wav",
+      "testvoices\\genuine\\LJ003-0205.wav"
+    ],
+    [
+      "testvoices\\genuine\\LJ003-0264 - Copy.wav",
+      "testvoices\\genuine\\LJ003-0264.wav"
+    ]
+  ]
+}
