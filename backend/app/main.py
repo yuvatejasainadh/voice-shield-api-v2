@@ -1,4 +1,4 @@
-"""FastAPI application entrypoint."""
+"""FastAPI application entrypoint for VoiceShield API V2."""
 
 from __future__ import annotations
 
@@ -22,7 +22,7 @@ from app.api.routes import (
     realtime_ws,
     reports,
 )
-from app.core.config import get_settings
+from app.core.config import API_PREFIX, API_VERSION, get_settings
 from app.core.logging import configure_logging
 from app.db.database import init_database
 from app.db import models  # noqa: F401
@@ -48,15 +48,17 @@ async def lifespan(_: FastAPI):
     else:
         logger.warning("Reality Defender API key is not configured")
 
-    logger.info("Application startup complete")
+    logger.info("VoiceShield API V2 startup complete")
     yield
 
 
 app = FastAPI(
     title=settings.app_name,
+    description="VoiceShield V2 Backend API for real-time and post-call voice clone & deepfake audio detection, device recording compatibility, Firebase auth, and cybercrime intelligence.",
     version=settings.app_version,
     docs_url="/docs",
     redoc_url="/redoc",
+    openapi_url="/openapi.json",
     lifespan=lifespan,
 )
 
@@ -86,21 +88,25 @@ async def generic_exception_handler(_: Request, exc: Exception) -> JSONResponse:
     )
 
 
-# V1 API Routes
-app.include_router(health.router, prefix="/api/v1")
-app.include_router(ready.router, prefix="/api/v1")
-app.include_router(analysis.router, prefix="/api/v1")
-app.include_router(history.router, prefix="/api/v1")
-app.include_router(reports.router, prefix="/api/v1")
-app.include_router(realtime.router, prefix="/api/v1")
-app.include_router(realtime_ws.router, prefix="/api/v1")
-app.include_router(device.router, prefix="/api/v1")
-app.include_router(auth.router, prefix="/api/v1")
-app.include_router(cybercrime.router, prefix="/api/v1")
+@app.get("/", tags=["meta"])
+def root() -> dict[str, str]:
+    """Root metadata endpoint identifying VoiceShield API V2."""
+    return {
+        "name": "VoiceShield API",
+        "version": "V2",
+        "status": "ok",
+        "docs": "/docs",
+    }
 
-# Aliases for direct /api and root web endpoints
-app.include_router(auth.router, prefix="/api")
-app.include_router(cybercrime.router, prefix="/api")
-app.include_router(device.router, prefix="/api")
-app.include_router(analysis.router, prefix="/api")
-app.include_router(analysis.router)
+
+# Canonical V2 API Route Registrations
+app.include_router(health.router, prefix=API_PREFIX)
+app.include_router(ready.router, prefix=API_PREFIX)
+app.include_router(auth.router, prefix=API_PREFIX)
+app.include_router(cybercrime.router, prefix=API_PREFIX)
+app.include_router(analysis.router, prefix=API_PREFIX)
+app.include_router(history.router, prefix=API_PREFIX)
+app.include_router(reports.router, prefix=API_PREFIX)
+app.include_router(realtime.router, prefix=API_PREFIX)
+app.include_router(realtime_ws.router, prefix=API_PREFIX)
+app.include_router(device.router, prefix=API_PREFIX)

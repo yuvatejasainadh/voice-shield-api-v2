@@ -53,7 +53,7 @@ def test_windowing_sync_2_5s_window():
 
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_aurigin) as mock_analyze:
         with TestClient(app) as client:
-            with client.websocket_connect("/api/v1/realtime/ws") as ws:
+            with client.websocket_connect("/api/v2/realtime/ws") as ws:
                 # 1. Start call
                 ws.send_text(json.dumps({
                     "type": "call_start",
@@ -129,7 +129,7 @@ def test_windowing_sync_5s_window():
 
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_aurigin) as mock_analyze:
         with TestClient(app) as client:
-            with client.websocket_connect("/api/v1/realtime/ws") as ws:
+            with client.websocket_connect("/api/v2/realtime/ws") as ws:
                 ws.send_text(json.dumps({
                     "type": "call_start",
                     "callSessionId": "test-sync-5s",
@@ -189,7 +189,7 @@ def test_windowing_sync_overlapping_sequence_duration_accounting():
 
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_aurigin) as mock_analyze:
         with TestClient(app) as client:
-            with client.websocket_connect("/api/v1/realtime/ws") as ws:
+            with client.websocket_connect("/api/v2/realtime/ws") as ws:
                 ws.send_text(json.dumps({"type": "call_start", "callSessionId": "test-overlap-seq"}))
                 ws.receive_text()  # call_started
                 ws.receive_text()  # call_report_created
@@ -264,7 +264,7 @@ def test_windowing_sync_500ms_partial_window():
 
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_aurigin) as mock_analyze:
         with TestClient(app) as client:
-            with client.websocket_connect("/api/v1/realtime/ws") as ws:
+            with client.websocket_connect("/api/v2/realtime/ws") as ws:
                 ws.send_text(json.dumps({"type": "call_start", "callSessionId": "test-partial-500ms"}))
                 ws.receive_text()  # call_started
                 ws.receive_text()  # call_report_created
@@ -312,7 +312,7 @@ def test_windowing_sync_duplicate_sequence_dropped():
 
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_aurigin) as mock_analyze:
         with TestClient(app) as client:
-            with client.websocket_connect("/api/v1/realtime/ws") as ws:
+            with client.websocket_connect("/api/v2/realtime/ws") as ws:
                 ws.send_text(json.dumps({"type": "call_start", "callSessionId": "test-dup-seq"}))
                 ws.receive_text()
                 ws.receive_text()
@@ -378,7 +378,7 @@ def test_windowing_sync_metadata_preservation():
 
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_aurigin):
         with TestClient(app) as client:
-            with client.websocket_connect("/api/v1/realtime/ws") as ws:
+            with client.websocket_connect("/api/v2/realtime/ws") as ws:
                 ws.send_text(json.dumps({"type": "call_start", "callSessionId": "test-meta-pres"}))
                 ws.receive_text()
                 ws.receive_text()
@@ -426,7 +426,7 @@ def test_windowing_sync_unsupported_audio_format_rejected():
     Unsupported sample rate or encoding should be rejected with UNSUPPORTED_AUDIO_FORMAT.
     """
     with TestClient(app) as client:
-        with client.websocket_connect("/api/v1/realtime/ws") as ws:
+        with client.websocket_connect("/api/v2/realtime/ws") as ws:
             ws.send_text(json.dumps({"type": "call_start", "callSessionId": "test-bad-format"}))
             ws.receive_text()
             ws.receive_text()

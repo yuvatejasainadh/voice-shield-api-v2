@@ -25,12 +25,12 @@
 
 | Category | Count | Status |
 |---|---|---|
-| **Primary Production Real-Time WebSocket** | 1 (`/api/v1/realtime/ws`, alias `/api/v1/ws`) | **ACTIVE** (Primary In-Call Pipeline) |
-| **REST Reports & History** | 2 (`/api/v1/reports`, `/api/v1/reports/{callSessionId}`) | **ACTIVE** (Call Report Retrieval & History) |
-| **REST Health & Readiness** | 2 (`/api/v1/health`, `/api/v1/ready`) | **ACTIVE** (Infrastructure Monitoring) |
-| **REST Real-Time Fallback & Session** | 3 (`/api/v1/realtime/sessions`, `/sessions/{id}/chunks`, `/sessions/{id}`) | **ACTIVE** (HTTP Fallback / Status) |
-| **REST File Analysis & History** | 2 (`/api/v1/analysis`, `/api/v1/history`) | **ACTIVE** (Standalone File Detection & History) |
-| **REST Legacy Complete** | 2 (`/api/v1/realtime/sessions/{id}/complete`, `/final-audio`) | **LEGACY / DEPRECATED** |
+| **Primary Production Real-Time WebSocket** | 1 (`/api/v2/realtime/ws`, alias `/api/v2/ws`) | **ACTIVE** (Primary In-Call Pipeline) |
+| **REST Reports & History** | 2 (`/api/v2/reports`, `/api/v2/reports/{callSessionId}`) | **ACTIVE** (Call Report Retrieval & History) |
+| **REST Health & Readiness** | 2 (`/api/v2/health`, `/api/v2/ready`) | **ACTIVE** (Infrastructure Monitoring) |
+| **REST Real-Time Fallback & Session** | 3 (`/api/v2/realtime/sessions`, `/sessions/{id}/chunks`, `/sessions/{id}`) | **ACTIVE** (HTTP Fallback / Status) |
+| **REST File Analysis & History** | 2 (`/api/v2/analysis`, `/api/v2/history`) | **ACTIVE** (Standalone File Detection & History) |
+| **REST Legacy Complete** | 2 (`/api/v2/realtime/sessions/{id}/complete`, `/final-audio`) | **LEGACY / DEPRECATED** |
 
 ---
 
@@ -40,24 +40,24 @@
 
 | ID | Method | Exact Endpoint Path | Full URL Pattern | Purpose | Android Used? | Backend Status |
 |---|---|---|---|---|---|---|
-| **REST-001** | `GET` | `/api/v1/health` | `http(s)://<host>:<port>/api/v1/health` | Basic liveness and version check | Optional (Ping) | **ACTIVE** |
-| **REST-002** | `GET` | `/api/v1/ready` | `http(s)://<host>:<port>/api/v1/ready` | Readiness and detector dependency check | Optional (Diagnostics) | **ACTIVE** |
-| **REST-003** | `GET` | `/api/v1/reports` | `http(s)://<host>:<port>/api/v1/reports` | Paginated call reports with evidence list | **YES (Call History List)** | **ACTIVE** |
-| **REST-004** | `GET` | `/api/v1/reports/{call_session_id}` | `http(s)://<host>:<port>/api/v1/reports/{call_session_id}` | Detailed call report and window evidence | **YES (Call Report Detail)** | **ACTIVE** |
-| **REST-005** | `POST` | `/api/v1/realtime/sessions` | `http(s)://<host>:<port>/api/v1/realtime/sessions` | Create/register call session in DB | Optional (WSS creates dynamically) | **ACTIVE** |
-| **REST-006** | `POST` | `/api/v1/realtime/sessions/{session_id}/chunks` | `http(s)://<host>:<port>/api/v1/realtime/sessions/{session_id}/chunks` | Multipart chunk upload fallback | Fallback only | **ACTIVE** |
-| **REST-007** | `GET` | `/api/v1/realtime/sessions/{session_id}` | `http(s)://<host>:<port>/api/v1/realtime/sessions/{session_id}` | Query call session status & peak risk | Optional (Post-call check) | **ACTIVE** |
-| **REST-008** | `POST` | `/api/v1/realtime/sessions/{session_id}/complete` | `http(s)://<host>:<port>/api/v1/realtime/sessions/{session_id}/complete` | Close session via REST | NO (WSS `call_end` preferred) | **LEGACY** |
-| **REST-009** | `POST` | `/api/v1/realtime/sessions/{session_id}/final-audio` | `http(s)://<host>:<port>/api/v1/realtime/sessions/{session_id}/final-audio` | Legacy post-call full audio upload | **NO (DO NOT CALL)** | **DEPRECATED** |
-| **REST-010** | `GET` | `/api/v1/history` | `http(s)://<host>:<port>/api/v1/history` | Standalone file analysis history | Optional | **ACTIVE** |
-| **REST-011** | `POST` | `/api/v1/analysis` | `http(s)://<host>:<port>/api/v1/analysis` | Standalone audio file deepfake detector | Optional | **ACTIVE** |
+| **REST-001** | `GET` | `/api/v2/health` | `http(s)://<host>:<port>/api/v2/health` | Basic liveness and version check | Optional (Ping) | **ACTIVE** |
+| **REST-002** | `GET` | `/api/v2/ready` | `http(s)://<host>:<port>/api/v2/ready` | Readiness and detector dependency check | Optional (Diagnostics) | **ACTIVE** |
+| **REST-003** | `GET` | `/api/v2/reports` | `http(s)://<host>:<port>/api/v2/reports` | Paginated call reports with evidence list | **YES (Call History List)** | **ACTIVE** |
+| **REST-004** | `GET` | `/api/v2/reports/{call_session_id}` | `http(s)://<host>:<port>/api/v2/reports/{call_session_id}` | Detailed call report and window evidence | **YES (Call Report Detail)** | **ACTIVE** |
+| **REST-005** | `POST` | `/api/v2/realtime/sessions` | `http(s)://<host>:<port>/api/v2/realtime/sessions` | Create/register call session in DB | Optional (WSS creates dynamically) | **ACTIVE** |
+| **REST-006** | `POST` | `/api/v2/realtime/sessions/{session_id}/chunks` | `http(s)://<host>:<port>/api/v2/realtime/sessions/{session_id}/chunks` | Multipart chunk upload fallback | Fallback only | **ACTIVE** |
+| **REST-007** | `GET` | `/api/v2/realtime/sessions/{session_id}` | `http(s)://<host>:<port>/api/v2/realtime/sessions/{session_id}` | Query call session status & peak risk | Optional (Post-call check) | **ACTIVE** |
+| **REST-008** | `POST` | `/api/v2/realtime/sessions/{session_id}/complete` | `http(s)://<host>:<port>/api/v2/realtime/sessions/{session_id}/complete` | Close session via REST | NO (WSS `call_end` preferred) | **LEGACY** |
+| **REST-009** | `POST` | `/api/v2/realtime/sessions/{session_id}/final-audio` | `http(s)://<host>:<port>/api/v2/realtime/sessions/{session_id}/final-audio` | Legacy post-call full audio upload | **NO (DO NOT CALL)** | **DEPRECATED** |
+| **REST-010** | `GET` | `/api/v2/history` | `http(s)://<host>:<port>/api/v2/history` | Standalone file analysis history | Optional | **ACTIVE** |
+| **REST-011** | `POST` | `/api/v2/analysis` | `http(s)://<host>:<port>/api/v2/analysis` | Standalone audio file deepfake detector | Optional | **ACTIVE** |
 
 
 ---
 
 ## Detailed REST Contracts
 
-### REST-003 — GET `/api/v1/reports`
+### REST-003 — GET `/api/v2/reports`
 - **Purpose**: Paginated list of persistent Call Reports for Android Call History screens.
 - **Query Parameters**:
   - `page` (`integer`, default: 1, ge: 1)
@@ -105,7 +105,7 @@
 
 ---
 
-### REST-004 — GET `/api/v1/reports/{call_session_id}`
+### REST-004 — GET `/api/v2/reports/{call_session_id}`
 - **Purpose**: Returns the full Call Report and complete window evidence list for a specific call session.
 - **Response Schema** (`200 OK`): Single `CallReportSchema` (same shape as items in `REST-003`).
 
@@ -117,7 +117,7 @@ This is the **primary production in-call detection and live call report synchron
 
 ## 1. Connection Details
 
-- **Exact Endpoint**: `/api/v1/realtime/ws` (Alias registered at `/api/v1/ws`)
+- **Exact Endpoint**: `/api/v2/realtime/ws` (Alias registered at `/api/v2/ws`)
 - **Protocol**: Bidirectional JSON text frames.
 - **Heartbeat**: Ping/Pong supported (`{"type": "ping"}` -> `{"type": "pong"}`).
 

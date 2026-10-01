@@ -129,7 +129,7 @@ def test_realtime_websocket_full_clean_pipeline_logging(caplog):
     call_id = "CALL-TEST01"
 
     with TestClient(app) as client:
-        with client.websocket_connect("/api/v1/realtime/ws") as ws:
+        with client.websocket_connect("/api/v2/realtime/ws") as ws:
             # 1. Start Call
             ws.send_text(json.dumps({"type": "call_start", "callSessionId": call_id}))
             assert json.loads(ws.receive_text())["type"] == "call_started"
@@ -252,7 +252,7 @@ def test_websocket_54s_call_tced_and_tail_clean_logging(caplog):
 
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_aurigin):
         with TestClient(app) as client:
-            with client.websocket_connect("/api/v1/realtime/ws") as ws:
+            with client.websocket_connect("/api/v2/realtime/ws") as ws:
                 ws.send_text(json.dumps({"type": "call_start", "callSessionId": session_id}))
                 assert json.loads(ws.receive_text())["type"] == "call_started"
                 assert json.loads(ws.receive_text())["type"] == "call_report_created"

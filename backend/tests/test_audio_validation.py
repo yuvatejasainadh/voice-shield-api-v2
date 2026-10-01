@@ -48,7 +48,7 @@ def test_all_seven_audio_formats_accepted(fmt: str, content_type: str) -> None:
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=MOCK_AURIGIN_ANALYSIS):
         with TestClient(app) as client:
             files = {"audio": (f"sample.{fmt}", BytesIO(audio_bytes), content_type)}
-            response = client.post("/api/v1/analysis", files=files)
+            response = client.post("/api/v2/analysis", files=files)
             assert response.status_code == 201, f"Failed for format {fmt}: {response.text}"
             payload = response.json()
             assert payload["status"] == "completed"
@@ -59,7 +59,7 @@ def test_stereo_wav_is_accepted_and_converted_for_inference() -> None:
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=MOCK_AURIGIN_ANALYSIS):
         with TestClient(app) as client:
             files = {"audio": ("stereo.wav", BytesIO(generate_wav_bytes(channels=2)), "audio/wav")}
-            response = client.post("/api/v1/analysis", files=files)
+            response = client.post("/api/v2/analysis", files=files)
             assert response.status_code == 201
             assert response.json()["status"] == "completed"
 
@@ -67,7 +67,7 @@ def test_stereo_wav_is_accepted_and_converted_for_inference() -> None:
 def test_invalid_extension() -> None:
     with TestClient(app) as client:
         files = {"audio": ("bad.txt", BytesIO(b"not audio"), "text/plain")}
-        response = client.post("/api/v1/analysis", files=files)
+        response = client.post("/api/v2/analysis", files=files)
         assert response.status_code == 415
         assert response.json()["detail"]["code"] == "UNSUPPORTED_AUDIO_FORMAT"
 
@@ -75,7 +75,7 @@ def test_invalid_extension() -> None:
 def test_empty_file() -> None:
     with TestClient(app) as client:
         files = {"audio": ("empty.wav", BytesIO(b""), "audio/wav")}
-        response = client.post("/api/v1/analysis", files=files)
+        response = client.post("/api/v2/analysis", files=files)
         assert response.status_code == 422
         assert response.json()["detail"]["code"] == "EMPTY_AUDIO"
 
@@ -83,7 +83,7 @@ def test_empty_file() -> None:
 def test_corrupted_audio() -> None:
     with TestClient(app) as client:
         files = {"audio": ("broken.wav", BytesIO(b"RIFF\x00\x00bad"), "audio/wav")}
-        response = client.post("/api/v1/analysis", files=files)
+        response = client.post("/api/v2/analysis", files=files)
         assert response.status_code == 422
         assert response.json()["detail"]["code"] in {"INVALID_AUDIO", "EMPTY_AUDIO"}
 
@@ -95,7 +95,7 @@ def test_audio_duration_limit() -> None:
     try:
         with TestClient(app) as client:
             files = {"audio": ("long.wav", BytesIO(generate_wav_bytes(duration_seconds=2.0)), "audio/wav")}
-            response = client.post("/api/v1/analysis", files=files)
+            response = client.post("/api/v2/analysis", files=files)
             assert response.status_code == 413
             assert response.json()["detail"]["code"] == "AUDIO_TOO_LONG"
     finally:
@@ -112,7 +112,7 @@ def test_silent_audio_is_accepted() -> None:
             sf.write(silence, np.zeros(16000, dtype=np.float32), 16000, format="WAV")
             silence.seek(0)
             response = client.post(
-                "/api/v1/analysis",
+                "/api/v2/analysis",
                 files={"audio": ("silence.wav", silence, "audio/wav")},
             )
             assert response.status_code == 201
@@ -124,7 +124,7 @@ def test_oversized_file() -> None:
     oversized = BytesIO(b"0" * (settings.max_upload_size_bytes + 1))
     with TestClient(app) as client:
         files = {"audio": ("big.wav", oversized, "audio/wav")}
-        response = client.post("/api/v1/analysis", files=files)
+        response = client.post("/api/v2/analysis", files=files)
         assert response.status_code == 413
         assert response.json()["detail"]["code"] == "FILE_TOO_LARGE"
 

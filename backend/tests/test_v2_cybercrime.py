@@ -96,23 +96,23 @@ def test_cybercrime_service_category_and_template_crud(test_db):
 
 
 def test_cybercrime_api_endpoints(client):
-    # 1. POST /api/v1/cybercrime/categories
+    # 1. POST /api/v2/cybercrime/categories
     cat_payload = {
         "name": "Electricity Bill Scam",
         "description": "Threat of power disconnection tonight unless paid immediately",
         "is_active": True,
     }
-    cat_res = client.post("/api/v1/cybercrime/categories", json=cat_payload)
+    cat_res = client.post("/api/v2/cybercrime/categories", json=cat_payload)
     assert cat_res.status_code == 201
     cat_data = cat_res.json()
     cat_id = cat_data["id"]
 
-    # 2. GET /api/v1/cybercrime/categories
-    cats_res = client.get("/api/v1/cybercrime/categories")
+    # 2. GET /api/v2/cybercrime/categories
+    cats_res = client.get("/api/v2/cybercrime/categories")
     assert cats_res.status_code == 200
     assert any(c["id"] == cat_id for c in cats_res.json())
 
-    # 3. POST /api/v1/cybercrime/templates
+    # 3. POST /api/v2/cybercrime/templates
     tmpl_payload = {
         "category_id": cat_id,
         "name": "Power Cut Tonight Fraud",
@@ -123,24 +123,24 @@ def test_cybercrime_api_endpoints(client):
         "metadata": {"scam_channel": "VOICE_CALL"},
         "is_active": True,
     }
-    tmpl_res = client.post("/api/v1/cybercrime/templates", json=tmpl_payload)
+    tmpl_res = client.post("/api/v2/cybercrime/templates", json=tmpl_payload)
     assert tmpl_res.status_code == 201
     tmpl_data = tmpl_res.json()
     tmpl_id = tmpl_data["id"]
     assert tmpl_data["name"] == "Power Cut Tonight Fraud"
     assert len(tmpl_data["versions"]) == 1
 
-    # 4. GET /api/v1/cybercrime/templates?category_id=...
-    filter_res = client.get(f"/api/v1/cybercrime/templates?category_id={cat_id}")
+    # 4. GET /api/v2/cybercrime/templates?category_id=...
+    filter_res = client.get(f"/api/v2/cybercrime/templates?category_id={cat_id}")
     assert filter_res.status_code == 200
     assert len(filter_res.json()) == 1
 
-    # 5. GET /api/v1/cybercrime/templates/{id}
-    detail_res = client.get(f"/api/v1/cybercrime/templates/{tmpl_id}")
+    # 5. GET /api/v2/cybercrime/templates/{id}
+    detail_res = client.get(f"/api/v2/cybercrime/templates/{tmpl_id}")
     assert detail_res.status_code == 200
     assert detail_res.json()["category_name"] == "Electricity Bill Scam"
 
-    # 6. POST /api/v1/cybercrime/templates/{id}/versions
+    # 6. POST /api/v2/cybercrime/templates/{id}/versions
     new_ver_payload = {
         "template_data": {
             "name": "Power Cut Tonight Fraud v2",
@@ -148,11 +148,11 @@ def test_cybercrime_api_endpoints(client):
         },
         "change_notes": "Added penalty fee pattern",
     }
-    ver_res = client.post(f"/api/v1/cybercrime/templates/{tmpl_id}/versions", json=new_ver_payload)
+    ver_res = client.post(f"/api/v2/cybercrime/templates/{tmpl_id}/versions", json=new_ver_payload)
     assert ver_res.status_code == 201
     assert ver_res.json()["version"] == 2
 
-    # 7. GET /api/v1/cybercrime/templates/{id}/versions
-    vers_res = client.get(f"/api/v1/cybercrime/templates/{tmpl_id}/versions")
+    # 7. GET /api/v2/cybercrime/templates/{id}/versions
+    vers_res = client.get(f"/api/v2/cybercrime/templates/{tmpl_id}/versions")
     assert vers_res.status_code == 200
     assert len(vers_res.json()) == 2

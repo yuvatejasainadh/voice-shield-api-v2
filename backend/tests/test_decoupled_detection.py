@@ -73,7 +73,7 @@ def test_decision_engine_operates_strictly_on_acoustic_scores():
 def test_realtime_websocket_pipeline_without_transcription():
     """End-to-end WebSocket test verifying audio windows produce reports with no transcription."""
     with TestClient(app) as client:
-        with client.websocket_connect("/api/v1/realtime/ws") as ws:
+        with client.websocket_connect("/api/v2/realtime/ws") as ws:
             session_id = "decoupled-test-1"
 
             # 1. Start Call
@@ -131,7 +131,7 @@ def test_realtime_websocket_pipeline_without_transcription():
 def test_partially_spoofed_preserves_raw_and_normalized_classification_in_evidence():
     """Test 5: A realtime window with Aurigin partially_spoofed is stored with rawClassification=partially_spoofed and normalizedClassification=SPOOFED."""
     with TestClient(app) as client:
-        with client.websocket_connect("/api/v1/realtime/ws") as ws:
+        with client.websocket_connect("/api/v2/realtime/ws") as ws:
             session_id = "test-partially-spoofed-preservation"
 
             # 1. Start Call
@@ -191,7 +191,7 @@ def test_partially_spoofed_preserves_raw_and_normalized_classification_in_eviden
             assert json.loads(ws.receive_text())["type"] == "session_closed"
 
         # 4. Verify REST report API
-        resp = client.get(f"/api/v1/reports/{session_id}")
+        resp = client.get(f"/api/v2/reports/{session_id}")
         assert resp.status_code == 200
         data = resp.json()
         assert data["evidence"][0]["rawClassification"] == "partially_spoofed"

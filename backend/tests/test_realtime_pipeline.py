@@ -239,7 +239,7 @@ async def test_session_isolation_delayed_call_a_ignored_in_call_b():
 
 def test_websocket_call_start_creates_report_and_ends():
     with TestClient(app) as client:
-        with client.websocket_connect("/api/v1/realtime/ws") as ws:
+        with client.websocket_connect("/api/v2/realtime/ws") as ws:
             # 1. Start call
             ws.send_text(json.dumps({
                 "type": "call_start",
@@ -278,7 +278,7 @@ def test_websocket_call_start_creates_report_and_ends():
 
 def test_websocket_audio_window_emits_report_updated_and_persists():
     with TestClient(app) as client:
-        with client.websocket_connect("/api/v1/realtime/ws") as ws:
+        with client.websocket_connect("/api/v2/realtime/ws") as ws:
             session_id = "ws-session-report-pipeline"
 
             # Start call
@@ -340,7 +340,7 @@ def test_websocket_audio_window_emits_report_updated_and_persists():
             assert json.loads(ws.receive_text())["type"] == "session_closed"
 
         # 4. Verify REST Reports API returns the persisted report
-        resp = client.get(f"/api/v1/reports/{session_id}")
+        resp = client.get(f"/api/v2/reports/{session_id}")
         assert resp.status_code == 200, resp.text
         report_data = resp.json()
         assert report_data["callSessionId"] == session_id
@@ -355,7 +355,7 @@ def test_reports_list_api_pagination():
         # Create 2 sessions
         for i in range(1, 3):
             s_id = f"report-list-test-{i}"
-            with client.websocket_connect("/api/v1/realtime/ws") as ws:
+            with client.websocket_connect("/api/v2/realtime/ws") as ws:
                 ws.send_text(json.dumps({"type": "call_start", "callSessionId": s_id}))
                 ws.receive_text()
                 ws.receive_text()
@@ -364,7 +364,7 @@ def test_reports_list_api_pagination():
                 ws.receive_text()
 
         # Query reports list
-        list_resp = client.get("/api/v1/reports?page=1&limit=10")
+        list_resp = client.get("/api/v2/reports?page=1&limit=10")
         assert list_resp.status_code == 200
         data = list_resp.json()
         assert data["total"] >= 2
@@ -379,7 +379,7 @@ def test_reports_list_api_pagination():
 def test_websocket_stays_alive_during_silence():
     """TEST 7: WebSocket remains alive during an active call; audio silence / no message must NOT close session."""
     with TestClient(app) as client:
-        with client.websocket_connect("/api/v1/realtime/ws") as ws:
+        with client.websocket_connect("/api/v2/realtime/ws") as ws:
             session_id = "ws-silence-session-test"
             ws.send_text(json.dumps({"type": "call_start", "callSessionId": session_id}))
             assert json.loads(ws.receive_text())["type"] == "call_started"
@@ -399,7 +399,7 @@ def test_websocket_stays_alive_during_silence():
 def test_single_aurigin_failure_does_not_close_websocket():
     """TEST 8: One Aurigin failure must NOT close the WebSocket or kill the session."""
     with TestClient(app) as client:
-        with client.websocket_connect("/api/v1/realtime/ws") as ws:
+        with client.websocket_connect("/api/v2/realtime/ws") as ws:
             session_id = "ws-aurigin-err-session-test"
             ws.send_text(json.dumps({"type": "call_start", "callSessionId": session_id}))
             assert json.loads(ws.receive_text())["type"] == "call_started"
@@ -436,7 +436,7 @@ def test_single_aurigin_failure_does_not_close_websocket():
 def test_db_persistence_failure_does_not_terminate_websocket():
     """TEST 9: DB sync failure does not crash the WebSocket or stop detection."""
     with TestClient(app) as client:
-        with client.websocket_connect("/api/v1/realtime/ws") as ws:
+        with client.websocket_connect("/api/v2/realtime/ws") as ws:
             session_id = "ws-db-err-session-test"
             ws.send_text(json.dumps({"type": "call_start", "callSessionId": session_id}))
             assert json.loads(ws.receive_text())["type"] == "call_started"
@@ -510,7 +510,7 @@ async def test_websocket_disconnect_awaits_in_flight_tasks():
 def test_realistic_58s_streaming_pipeline():
     """Regression Test 1: Realistic 58-second call produces exactly 6 detector windows with final duration ≈ 58s."""
     with TestClient(app) as client:
-        with client.websocket_connect("/api/v1/realtime/ws") as ws:
+        with client.websocket_connect("/api/v2/realtime/ws") as ws:
             session_id = "test-58s-pipeline"
 
             # 1. Start call
@@ -585,7 +585,7 @@ def test_realistic_58s_streaming_pipeline():
 def test_realistic_67s_streaming_pipeline():
     """Regression Test 2: Realistic 67-second call generates exactly 7 windows matching Android timeline."""
     with TestClient(app) as client:
-        with client.websocket_connect("/api/v1/realtime/ws") as ws:
+        with client.websocket_connect("/api/v2/realtime/ws") as ws:
             session_id = "test-67s-pipeline"
 
             # 1. Start call
@@ -679,7 +679,7 @@ def test_disconnect_without_call_end_triggers_finalization():
     ]
     with TestClient(app) as client:
         with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_aurigin):
-            with client.websocket_connect("/api/v1/realtime/ws") as ws:
+            with client.websocket_connect("/api/v2/realtime/ws") as ws:
                 ws.send_text(json.dumps({"type": "call_start", "callSessionId": session_id}))
                 assert json.loads(ws.receive_text())["type"] == "call_started"
                 assert json.loads(ws.receive_text())["type"] == "call_report_created"
@@ -713,7 +713,7 @@ def test_disconnect_without_call_end_triggers_finalization():
         assert report.evidence[-1].windowEndMs == 67000
 
         # REST report query returns finalized report
-        resp = client.get(f"/api/v1/reports/{session_id}")
+        resp = client.get(f"/api/v2/reports/{session_id}")
         assert resp.status_code == 200
         data = resp.json()
         assert data["status"] == "COMPLETED"
@@ -724,7 +724,7 @@ def test_duplicate_finalization_idempotency():
     """Regression Test 4: call_end followed by WebSocketDisconnect executes finalization exactly once."""
     session_id = "test-idempotent-finalization"
     with TestClient(app) as client:
-        with client.websocket_connect("/api/v1/realtime/ws") as ws:
+        with client.websocket_connect("/api/v2/realtime/ws") as ws:
             ws.send_text(json.dumps({"type": "call_start", "callSessionId": session_id}))
             assert json.loads(ws.receive_text())["type"] == "call_started"
             assert json.loads(ws.receive_text())["type"] == "call_report_created"
@@ -788,7 +788,7 @@ def test_duplicate_window_rejected_idempotent():
     }
     with TestClient(app) as client:
         with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_aurigin) as mock_analyze:
-            with client.websocket_connect("/api/v1/realtime/ws") as ws:
+            with client.websocket_connect("/api/v2/realtime/ws") as ws:
                 ws.send_text(json.dumps({"type": "call_start", "callSessionId": session_id}))
                 assert json.loads(ws.receive_text())["type"] == "call_started"
                 assert json.loads(ws.receive_text())["type"] == "call_report_created"
@@ -843,7 +843,7 @@ def test_call_end_exits_receive_loop_cleanly_without_exception(caplog):
     with caplog.at_level(logging.INFO):
         with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_aurigin):
             with TestClient(app) as client:
-                with client.websocket_connect("/api/v1/realtime/ws") as ws:
+                with client.websocket_connect("/api/v2/realtime/ws") as ws:
                     # 1. Start call
                     ws.send_text(json.dumps({"type": "call_start", "callSessionId": session_id}))
                     assert json.loads(ws.receive_text())["type"] == "call_started"

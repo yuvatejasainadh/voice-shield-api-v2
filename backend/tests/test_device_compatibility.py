@@ -31,7 +31,7 @@ def test_vivo_v70_fe_v2558_compatibility():
             "os_version": "6",
             "android_version": "16",
         }
-        resp = client.post("/api/v1/device/compatibility", json=payload)
+        resp = client.post("/api/v2/device/compatibility", json=payload)
         assert resp.status_code == 200
         data = resp.json()
         assert data["supported"] is True
@@ -52,7 +52,7 @@ def test_vivo_t2_pro_v2321_compatibility():
             "os_version": "15",
             "android_version": "15",
         }
-        resp = client.post("/api/v1/device/compatibility", json=payload)
+        resp = client.post("/api/v2/device/compatibility", json=payload)
         assert resp.status_code == 200
         data = resp.json()
         assert data["supported"] is True
@@ -73,7 +73,7 @@ def test_infinix_note_40_pro_plus_x6851b_compatibility():
             "os_version": "15",
             "android_version": "15",
         }
-        resp = client.post("/api/v1/device/compatibility", json=payload)
+        resp = client.post("/api/v2/device/compatibility", json=payload)
         assert resp.status_code == 200
         data = resp.json()
         assert data["supported"] is True
@@ -95,7 +95,7 @@ def test_vivo_marketing_name_v70_fe_unsupported():
             "os_version": "6",
             "android_version": "16",
         }
-        resp = client.post("/api/v1/device/compatibility", json=payload)
+        resp = client.post("/api/v2/device/compatibility", json=payload)
         assert resp.status_code == 200
         data = resp.json()
         assert data["supported"] is False
@@ -114,7 +114,7 @@ def test_vivo_marketing_name_t2_pro_unsupported():
             "os_version": "15",
             "android_version": "15",
         }
-        resp = client.post("/api/v1/device/compatibility", json=payload)
+        resp = client.post("/api/v2/device/compatibility", json=payload)
         assert resp.status_code == 200
         data = resp.json()
         assert data["supported"] is False
@@ -133,7 +133,7 @@ def test_infinix_marketing_name_note_40_pro_plus_unsupported():
             "os_version": "15",
             "android_version": "15",
         }
-        resp = client.post("/api/v1/device/compatibility", json=payload)
+        resp = client.post("/api/v2/device/compatibility", json=payload)
         assert resp.status_code == 200
         data = resp.json()
         assert data["supported"] is False
@@ -152,7 +152,7 @@ def test_infinix_truncated_model_x6851b_unsupported():
             "os_version": "15",
             "android_version": "15",
         }
-        resp = client.post("/api/v1/device/compatibility", json=payload)
+        resp = client.post("/api/v2/device/compatibility", json=payload)
         assert resp.status_code == 200
         data = resp.json()
         assert data["supported"] is False
@@ -166,7 +166,7 @@ def test_case_and_whitespace_normalization_all_three():
     with TestClient(app) as client:
         # Vivo V2558
         resp1 = client.post(
-            "/api/v1/device/compatibility",
+            "/api/v2/device/compatibility",
             json={"manufacturer": "  viVO  ", "model": "  v2558  "},
         )
         assert resp1.status_code == 200
@@ -177,7 +177,7 @@ def test_case_and_whitespace_normalization_all_three():
 
         # Vivo V2321
         resp2 = client.post(
-            "/api/v1/device/compatibility",
+            "/api/v2/device/compatibility",
             json={"manufacturer": " VIVO ", "model": " v2321 "},
         )
         assert resp2.status_code == 200
@@ -188,7 +188,7 @@ def test_case_and_whitespace_normalization_all_three():
 
         # Infinix Infinix X6851B
         resp3 = client.post(
-            "/api/v1/device/compatibility",
+            "/api/v2/device/compatibility",
             json={"manufacturer": "INFINIX", "model": "  INFINIX X6851B  "},
         )
         assert resp3.status_code == 200
@@ -210,7 +210,7 @@ def test_infinix_api_response_serialization_explicit():
             "os_version": "15",
             "android_version": "15",
         }
-        resp = client.post("/api/v1/device/compatibility", json=payload)
+        resp = client.post("/api/v2/device/compatibility", json=payload)
         assert resp.status_code == 200
         assert '"recording_folder": "Music/PhoneRecord"' in resp.text or '"recording_folder":"Music/PhoneRecord"' in resp.text
         data = resp.json()
@@ -235,7 +235,7 @@ def test_backward_compatibility_null_or_missing_recording_folder():
 
     # 3. Vivo endpoint response has None/unresolved recording_folder without failing
     with TestClient(app) as client:
-        resp = client.post("/api/v1/device/compatibility", json={"manufacturer": "Vivo", "model": "V2558"})
+        resp = client.post("/api/v2/device/compatibility", json={"manufacturer": "Vivo", "model": "V2558"})
         assert resp.status_code == 200
         data = resp.json()
         assert data["supported"] is True
@@ -251,7 +251,7 @@ def test_unknown_vivo_model_unsupported():
             "os_family": "Funtouch OS",
             "os_version": "14",
         }
-        resp = client.post("/api/v1/device/compatibility", json=payload)
+        resp = client.post("/api/v2/device/compatibility", json=payload)
         assert resp.status_code == 200
         data = resp.json()
         assert data["supported"] is False
@@ -267,7 +267,7 @@ def test_unknown_manufacturer_unsupported():
             "manufacturer": "AcmeBrand",
             "model": "SuperPhone 1",
         }
-        resp = client.post("/api/v1/device/compatibility", json=payload)
+        resp = client.post("/api/v2/device/compatibility", json=payload)
         assert resp.status_code == 200
         data = resp.json()
         assert data["supported"] is False
@@ -310,7 +310,7 @@ def test_oppo_unvalidated_model_unsupported():
             "os_family": "ColorOS",
             "os_version": "14",
         }
-        resp = client.post("/api/v1/device/compatibility", json=payload)
+        resp = client.post("/api/v2/device/compatibility", json=payload)
         assert resp.status_code == 200
         data = resp.json()
         assert data["supported"] is False
@@ -321,19 +321,5 @@ def test_oppo_unvalidated_model_unsupported():
 def test_missing_required_fields_validation_error():
     """Test missing manufacturer or model returns 422 Unprocessable Entity."""
     with TestClient(app) as client:
-        resp = client.post("/api/v1/device/compatibility", json={"manufacturer": "Vivo"})
+        resp = client.post("/api/v2/device/compatibility", json={"manufacturer": "Vivo"})
         assert resp.status_code == 422
-
-
-def test_api_alias_endpoint():
-    """Test endpoint is also reachable via /api/device/compatibility."""
-    with TestClient(app) as client:
-        payload = {
-            "manufacturer": "Vivo",
-            "model": "V2558",
-        }
-        resp = client.post("/api/device/compatibility", json=payload)
-        assert resp.status_code == 200
-        data = resp.json()
-        assert data["supported"] is True
-        assert data["profile"] == "ROOT_LEVEL"

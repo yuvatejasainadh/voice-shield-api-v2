@@ -97,21 +97,21 @@ def test_auth_api_routes(client):
         "event_type": "LOGIN",
     }
 
-    # POST /api/v1/auth/sync
-    res = client.post("/api/v1/auth/sync", json=payload)
+    # POST /api/v2/auth/sync
+    res = client.post("/api/v2/auth/sync", json=payload)
     assert res.status_code == 200
     data = res.json()
     assert data["success"] is True
     assert data["user"]["firebase_uid"] == fb_uid
     user_id = data["user"]["id"]
 
-    # GET /api/v1/auth/user?firebase_uid=...
-    get_res = client.get(f"/api/v1/auth/user?firebase_uid={fb_uid}")
+    # GET /api/v2/auth/user?firebase_uid=...
+    get_res = client.get(f"/api/v2/auth/user?firebase_uid={fb_uid}")
     assert get_res.status_code == 200
     assert get_res.json()["id"] == user_id
     assert len(get_res.json()["devices"]) == 1
 
-    # GET /api/v1/auth/user?user_id=...
-    get_res2 = client.get(f"/api/v1/auth/user?user_id={user_id}")
+    # GET /api/v2/auth/user?user_id=...
+    get_res2 = client.get(f"/api/v2/auth/user?user_id={user_id}")
     assert get_res2.status_code == 200
     assert get_res2.json()["phone_number"] == phone

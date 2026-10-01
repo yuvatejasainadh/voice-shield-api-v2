@@ -5,7 +5,7 @@
 ```
 Android App (Call Audio Capture - PCM 16kHz 16-bit Mono)
        |
-       |  WebSocket Secure (WSS: /api/v1/realtime/ws)
+       |  WebSocket Secure (WSS: /api/v2/realtime/ws)
        |  JSON frames: call_start, audio_window, call_end
        v
 Voice Shield Server (FastAPI WSS Gateway)
@@ -44,7 +44,7 @@ Android App
 ## 3. WebSocket Protocol (WSS)
 
 ### Endpoint
-`wss://<server-domain>/api/v1/realtime/ws` (or `ws://localhost:8000/api/v1/realtime/ws` in dev)
+`wss://<server-domain>/api/v2/realtime/ws` (or `ws://localhost:8000/api/v2/realtime/ws` in dev)
 
 ### Message Flow
 

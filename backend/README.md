@@ -112,66 +112,56 @@ REALITY_DEFENDER_TIMEOUT_SECONDS=120
 
 ## 📡 API Endpoints
 
-### 1. `POST /api/v1/analyze` (Main Mobile Endpoint)
-Upload audio for concurrent transcription (Groq) and voice clone detection (Reality Defender):
+### 1. `POST /api/v2/analyze` (Main Mobile Endpoint)
+Upload audio for concurrent transcription and voice clone detection:
 
 **Request**:
-`multipart/form-data` with `audio=<binary_data>` and optional `language=te`.
+`multipart/form-data` with `audio=<binary_data>`.
 
 **Response (200 OK)**:
 ```json
 {
-  "success": true,
-  "transcription": {
-    "text": "మీరు ఎక్కడ ఉన్నారు?",
-    "language": "telugu",
-    "language_probability": null,
-    "duration_seconds": 3.2
-  },
-  "speakers": [],
-  "speaker_transcript": [],
-  "voice_analysis": {
-    "analysis_id": "c1f7a2d8-...",
-    "status": "completed",
-    "classification": "LIKELY_GENUINE",
-    "risk_score": 12,
-    "confidence": null,
-    "ai_probability": 0.12,
-    "duration_seconds": 3.2,
-    "segments_analyzed": 1,
-    "processing_time_ms": 1420,
-    "detector_version": "reality-defender",
-    "reasons": ["No significant deepfake or synthetic voice manipulation detected"],
-    "created_at": "2026-08-29T22:00:00"
-  },
-  "processing_time_ms": 1450,
-  "processing": {
-    "transcription_ms": 820,
-    "voice_analysis_ms": 1420,
-    "total_ms": 1450
-  }
+  "analysis_id": "c1f7a2d8-...",
+  "status": "completed",
+  "classification": "LIKELY_GENUINE",
+  "risk_score": 12,
+  "confidence": 0.95,
+  "ai_probability": 0.12,
+  "duration_seconds": 3.2,
+  "segments_analyzed": 1,
+  "processing_time_ms": 1420,
+  "detector_version": "aurigin-v1",
+  "reasons": ["Model verified natural vocal acoustic characteristics"],
+  "created_at": "2026-10-01T20:00:00"
 }
 ```
 
-### 2. `POST /api/v1/transcription`
-Speech-to-text transcription via Groq:
-- `audio`: audio file (.wav, .mp3, .m4a, .aac, .ogg, .flac, .webm)
-- `language`: optional language code (e.g. `te`, `en`)
-- `include_segments`: boolean (include timestamped segments)
+### 2. `POST /api/v2/analysis`
+Standalone deepfake analysis submission endpoint.
 
-### 3. `POST /api/v1/analyze`
-Combined cloud analysis via Sarvam, AssemblyAI, Groq, and Reality Defender. Returns transcription, speaker diarization, provider status, and normalized voice analysis.
+### 3. `GET /api/v2/health`
+Health liveness probe:
+```json
+{
+  "status": "ok",
+  "version": "v2",
+  "service": "voiceshield-api"
+}
+```
 
-### 4. `GET /api/v1/ready`
+### 4. `GET /api/v2/ready`
 Reports status of database and provider configurations:
 ```json
 {
   "status": "ready",
-  "database": true,
-  "groq": "configured",
-  "reality_defender": "configured",
-  "groq_model": "whisper-large-v3",
-  "detector_provider": "reality-defender"
+  "version": "v2",
+  "database": "connected",
+  "providers": {
+    "aurigin": "configured",
+    "reality_defender": "configured"
+  },
+  "primary_realtime_detector": "aurigin",
+  "file_analysis_detector": "aurigin"
 }
 ```
 

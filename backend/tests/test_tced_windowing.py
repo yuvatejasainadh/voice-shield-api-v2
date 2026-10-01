@@ -266,7 +266,7 @@ def test_websocket_tced_54_second_call_pipeline():
 
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_aurigin):
         with TestClient(app) as client:
-            with client.websocket_connect("/api/v1/realtime/ws") as ws:
+            with client.websocket_connect("/api/v2/realtime/ws") as ws:
                 session_id = "ws-tced-54s-integration"
 
                 # 1. Start call

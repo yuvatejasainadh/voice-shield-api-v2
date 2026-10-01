@@ -59,14 +59,14 @@ def clean_realtime_db():
 def test_create_session_and_idempotent_creation():
     with TestClient(app) as client:
         payload = {"client_session_id": "session-abc", "started_at": "2026-08-31T12:00:00Z"}
-        resp = client.post("/api/v1/realtime/sessions", json=payload)
+        resp = client.post("/api/v2/realtime/sessions", json=payload)
         assert resp.status_code == 200, resp.text
         body = resp.json()
         assert body["session_id"]
         assert body["status"] == "ACTIVE"
         assert body["risk_state"] == "LOW"
 
-        resp2 = client.post("/api/v1/realtime/sessions", json=payload)
+        resp2 = client.post("/api/v2/realtime/sessions", json=payload)
         assert resp2.status_code == 200
         assert resp2.json()["session_id"] == body["session_id"]
 
@@ -74,7 +74,7 @@ def test_create_session_and_idempotent_creation():
 def test_chunk_upload_and_duplicate_chunk_are_idempotent():
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-chunk", "started_at": "2026-08-31T12:00:00Z"},
         ).json()
         session_id = session["session_id"]
@@ -97,13 +97,13 @@ def test_chunk_upload_and_duplicate_chunk_are_idempotent():
             "processing_ms": 50,
             "raw_provider_status": "OK",
         }):
-            resp = client.post(f"/api/v1/realtime/sessions/{session_id}/chunks", files=files, data=data)
+            resp = client.post(f"/api/v2/realtime/sessions/{session_id}/chunks", files=files, data=data)
             assert resp.status_code == 200, resp.text
             payload = resp.json()
             assert payload["risk_state"] == "LOW"
             assert payload["notification_required"] is False
 
-        resp2 = client.post(f"/api/v1/realtime/sessions/{session_id}/chunks", files=files, data=data)
+        resp2 = client.post(f"/api/v2/realtime/sessions/{session_id}/chunks", files=files, data=data)
         assert resp2.status_code == 200
         assert resp2.json()["sequence_number"] == 1
 
@@ -111,7 +111,7 @@ def test_chunk_upload_and_duplicate_chunk_are_idempotent():
 def test_invalid_sequence_rejected():
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-seq", "started_at": "2026-08-31T12:00:00Z"},
         ).json()
         files = {"audio": ("chunk.wav", io.BytesIO(_wav_bytes()), "audio/wav")}
@@ -122,18 +122,18 @@ def test_invalid_sequence_rejected():
             "duration_ms": 10000,
             "idempotency_key": "bad-seq-1",
         }
-        resp = client.post(f"/api/v1/realtime/sessions/{session['session_id']}/chunks", files=files, data=data)
+        resp = client.post(f"/api/v2/realtime/sessions/{session['session_id']}/chunks", files=files, data=data)
         assert resp.status_code == 422
 
 
 def test_invalid_audio_rejected():
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-audio", "started_at": "2026-08-31T12:00:00Z"},
         ).json()
         resp = client.post(
-            f"/api/v1/realtime/sessions/{session['session_id']}/chunks",
+            f"/api/v2/realtime/sessions/{session['session_id']}/chunks",
             files={"audio": ("bad.txt", io.BytesIO(b"not audio"), "text/plain")},
             data={
                 "sequence_number": 1,
@@ -149,7 +149,7 @@ def test_invalid_audio_rejected():
 def test_low_medium_transition_triggers_notification():
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-risk", "started_at": "2026-08-31T12:00:00Z"},
         ).json()
         session_id = session["session_id"]
@@ -165,7 +165,7 @@ def test_low_medium_transition_triggers_notification():
                 "raw_provider_status": "OK",
             }):
                 response = client.post(
-                    f"/api/v1/realtime/sessions/{session_id}/chunks",
+                    f"/api/v2/realtime/sessions/{session_id}/chunks",
                     files={"audio": (f"chunk{idx}.wav", io.BytesIO(_wav_bytes()), "audio/wav")},
                     data={
                         "sequence_number": idx,
@@ -186,7 +186,7 @@ def test_low_medium_transition_triggers_notification():
 def test_final_result_overrides_realtime_result_and_complete_session():
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-final", "started_at": "2026-08-31T12:00:00Z"},
         ).json()
         session_id = session["session_id"]
@@ -201,7 +201,7 @@ def test_final_result_overrides_realtime_result_and_complete_session():
             "raw_provider_status": "OK",
         }):
             client.post(
-                f"/api/v1/realtime/sessions/{session_id}/chunks",
+                f"/api/v2/realtime/sessions/{session_id}/chunks",
                 files={"audio": ("chunk.wav", io.BytesIO(_wav_bytes()), "audio/wav")},
                 data={
                     "sequence_number": 1,
@@ -218,7 +218,7 @@ def test_final_result_overrides_realtime_result_and_complete_session():
             "score": 0.09,
         }):
             complete = client.post(
-                f"/api/v1/realtime/sessions/{session_id}/complete",
+                f"/api/v2/realtime/sessions/{session_id}/complete",
                 json={"ended_at": "2026-08-31T12:00:30Z", "final_audio_reference": "ref-1"},
             )
             assert complete.status_code == 200, complete.text
@@ -226,7 +226,7 @@ def test_final_result_overrides_realtime_result_and_complete_session():
             assert body["status"] in {"CLOSED", "FINALIZING", "COMPLETED", "PARTIAL"}
 
 
-        state = client.get(f"/api/v1/realtime/sessions/{session_id}")
+        state = client.get(f"/api/v2/realtime/sessions/{session_id}")
         assert state.status_code == 200
         assert state.json()["session_id"] == session_id
 
@@ -258,7 +258,7 @@ def test_history_records_retrieval():
         finally:
             db.close()
 
-        history = client.get("/api/v1/history?page=1&limit=10")
+        history = client.get("/api/v2/history?page=1&limit=10")
         assert history.status_code == 200
         assert len(history.json()["items"]) > 0
 
@@ -267,10 +267,10 @@ def test_history_records_retrieval():
 def test_realtime_status_schema_shape():
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-state", "started_at": "2026-08-31T12:00:00Z"},
         ).json()
-        status_resp = client.get(f"/api/v1/realtime/sessions/{session['session_id']}")
+        status_resp = client.get(f"/api/v2/realtime/sessions/{session['session_id']}")
         assert status_resp.status_code == 200
         payload = status_resp.json()
         assert payload["status"] == "ACTIVE"
@@ -316,7 +316,7 @@ def test_unknown_risk_state_does_not_crash_and_handles_peak_risk_correctly():
     # API integration test: First chunk UNKNOWN does NOT return HTTP 500
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-unknown-test", "started_at": "2026-08-31T12:00:00Z"},
         ).json()
         session_id = session["session_id"]
@@ -332,7 +332,7 @@ def test_unknown_risk_state_does_not_crash_and_handles_peak_risk_correctly():
             "raw_provider_status": "POOR_AUDIO",
         }):
             resp = client.post(
-                f"/api/v1/realtime/sessions/{session_id}/chunks",
+                f"/api/v2/realtime/sessions/{session_id}/chunks",
                 files={"audio": ("chunk.wav", io.BytesIO(_wav_bytes()), "audio/wav")},
                 data={
                     "sequence_number": 1,
@@ -349,7 +349,7 @@ def test_unknown_risk_state_does_not_crash_and_handles_peak_risk_correctly():
             assert data["state_changed"] is False
 
         # Verify session peak_risk and status
-        state_resp = client.get(f"/api/v1/realtime/sessions/{session_id}")
+        state_resp = client.get(f"/api/v2/realtime/sessions/{session_id}")
         assert state_resp.status_code == 200
         state = state_resp.json()
         assert state["current_risk"] == "UNKNOWN"
@@ -362,7 +362,7 @@ def test_10_second_window_accepted():
     """Test 1: 10,000ms window -> 200 accepted."""
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-10s", "started_at": "2026-09-01T12:00:00Z"},
         ).json()
         session_id = session["session_id"]
@@ -385,7 +385,7 @@ def test_10_second_window_accepted():
             "processing_ms": 50,
             "raw_provider_status": "OK",
         }):
-            resp = client.post(f"/api/v1/realtime/sessions/{session_id}/chunks", files=files, data=data)
+            resp = client.post(f"/api/v2/realtime/sessions/{session_id}/chunks", files=files, data=data)
             assert resp.status_code == 200, resp.text
             assert resp.json()["status"] == "PROCESSED"
 
@@ -394,7 +394,7 @@ def test_20_second_rolling_window_accepted():
     """Test 2: 20,000ms rolling window -> 200 accepted."""
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-20s", "started_at": "2026-09-01T12:00:00Z"},
         ).json()
         session_id = session["session_id"]
@@ -417,7 +417,7 @@ def test_20_second_rolling_window_accepted():
             "processing_ms": 60,
             "raw_provider_status": "OK",
         }):
-            resp = client.post(f"/api/v1/realtime/sessions/{session_id}/chunks", files=files, data=data)
+            resp = client.post(f"/api/v2/realtime/sessions/{session_id}/chunks", files=files, data=data)
             assert resp.status_code == 200, resp.text
             assert resp.json()["status"] == "PROCESSED"
 
@@ -426,7 +426,7 @@ def test_30_second_maximum_window_accepted():
     """Test 3: 30,000ms maximum window -> 200 accepted."""
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-30s", "started_at": "2026-09-01T12:00:00Z"},
         ).json()
         session_id = session["session_id"]
@@ -449,7 +449,7 @@ def test_30_second_maximum_window_accepted():
             "processing_ms": 70,
             "raw_provider_status": "OK",
         }):
-            resp = client.post(f"/api/v1/realtime/sessions/{session_id}/chunks", files=files, data=data)
+            resp = client.post(f"/api/v2/realtime/sessions/{session_id}/chunks", files=files, data=data)
             assert resp.status_code == 200, resp.text
             assert resp.json()["status"] == "PROCESSED"
 
@@ -458,7 +458,7 @@ def test_30_001_second_window_rejected():
     """Test 4: 30,001ms window -> 413 INVALID_DURATION."""
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-30001ms", "started_at": "2026-09-01T12:00:00Z"},
         ).json()
         session_id = session["session_id"]
@@ -470,7 +470,7 @@ def test_30_001_second_window_rejected():
             "duration_ms": 30001,
             "idempotency_key": "win-30001ms",
         }
-        resp = client.post(f"/api/v1/realtime/sessions/{session_id}/chunks", files=files, data=data)
+        resp = client.post(f"/api/v2/realtime/sessions/{session_id}/chunks", files=files, data=data)
         assert resp.status_code == 413, resp.text
         assert resp.json()["detail"]["code"] == "INVALID_DURATION"
 
@@ -479,7 +479,7 @@ def test_27_second_final_partial_window_accepted():
     """Test 5: 27,000ms final partial window (e.g. 100-127s post-call) -> 200 accepted."""
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-27s", "started_at": "2026-09-01T12:00:00Z"},
         ).json()
         session_id = session["session_id"]
@@ -502,7 +502,7 @@ def test_27_second_final_partial_window_accepted():
             "processing_ms": 65,
             "raw_provider_status": "OK",
         }):
-            resp = client.post(f"/api/v1/realtime/sessions/{session_id}/chunks", files=files, data=data)
+            resp = client.post(f"/api/v2/realtime/sessions/{session_id}/chunks", files=files, data=data)
             assert resp.status_code == 200, resp.text
             assert resp.json()["status"] == "PROCESSED"
 
@@ -511,7 +511,7 @@ def test_below_minimum_duration_rejected():
     """Test 6: Below configured minimum duration (0.5s / 500ms vs 1.0s / 1000ms min) -> rejected."""
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-short", "started_at": "2026-09-01T12:00:00Z"},
         ).json()
         session_id = session["session_id"]
@@ -523,7 +523,7 @@ def test_below_minimum_duration_rejected():
             "duration_ms": 200,
             "idempotency_key": "win-short",
         }
-        resp = client.post(f"/api/v1/realtime/sessions/{session_id}/chunks", files=files, data=data)
+        resp = client.post(f"/api/v2/realtime/sessions/{session_id}/chunks", files=files, data=data)
         assert resp.status_code == 413
         assert resp.json()["detail"]["code"] == "INVALID_DURATION"
 
@@ -543,7 +543,7 @@ def test_overlapping_rolling_windows_all_five_processed():
 
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-overlapping-5", "started_at": "2026-09-01T12:00:00Z"},
         ).json()
         session_id = session["session_id"]
@@ -570,7 +570,7 @@ def test_overlapping_rolling_windows_all_five_processed():
                     "duration_ms": w["dur_ms"],
                     "idempotency_key": f"win-overlap-{w['seq']}",
                 }
-                resp = client.post(f"/api/v1/realtime/sessions/{session_id}/chunks", files=files, data=data)
+                resp = client.post(f"/api/v2/realtime/sessions/{session_id}/chunks", files=files, data=data)
                 assert resp.status_code == 200, f"Failed at seq {w['seq']}: {resp.text}"
                 assert resp.json()["status"] == "PROCESSED"
 
@@ -582,7 +582,7 @@ def test_retry_same_window_deduplicated():
     """Test 8: Exact same request twice with same idempotency key -> exactly ONE Aurigin call."""
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-retry", "started_at": "2026-09-01T12:00:00Z"},
         ).json()
         session_id = session["session_id"]
@@ -610,13 +610,13 @@ def test_retry_same_window_deduplicated():
 
         with patch("app.services.aurigin_service.AuriginService.analyze_audio", mock_analyze):
             # First send
-            resp1 = client.post(f"/api/v1/realtime/sessions/{session_id}/chunks", files=files, data=data)
+            resp1 = client.post(f"/api/v2/realtime/sessions/{session_id}/chunks", files=files, data=data)
             assert resp1.status_code == 200
             assert resp1.json()["sequence_number"] == 1
 
             # Second send (retry)
             files2 = {"audio": ("chunk.wav", io.BytesIO(_wav_bytes(duration_seconds=10.0)), "audio/wav")}
-            resp2 = client.post(f"/api/v1/realtime/sessions/{session_id}/chunks", files=files2, data=data)
+            resp2 = client.post(f"/api/v2/realtime/sessions/{session_id}/chunks", files=files2, data=data)
             assert resp2.status_code == 200
             assert resp2.json()["sequence_number"] == 1
 
@@ -628,7 +628,7 @@ def test_different_overlapping_windows_generate_two_aurigin_requests():
     """Test 9: W03 (0-30s) then W04 (10-40s) -> exactly TWO Aurigin requests."""
     with TestClient(app) as client:
         session = client.post(
-            "/api/v1/realtime/sessions",
+            "/api/v2/realtime/sessions",
             json={"client_session_id": "session-overlap-pair", "started_at": "2026-09-01T12:00:00Z"},
         ).json()
         session_id = session["session_id"]
@@ -655,7 +655,7 @@ def test_different_overlapping_windows_generate_two_aurigin_requests():
                 "duration_ms": 30000,
                 "idempotency_key": "win-0-30",
             }
-            resp1 = client.post(f"/api/v1/realtime/sessions/{session_id}/chunks", files=files1, data=data1)
+            resp1 = client.post(f"/api/v2/realtime/sessions/{session_id}/chunks", files=files1, data=data1)
             assert resp1.status_code == 200
 
             # W04: 10-40s
@@ -667,7 +667,7 @@ def test_different_overlapping_windows_generate_two_aurigin_requests():
                 "duration_ms": 30000,
                 "idempotency_key": "win-10-40",
             }
-            resp2 = client.post(f"/api/v1/realtime/sessions/{session_id}/chunks", files=files2, data=data2)
+            resp2 = client.post(f"/api/v2/realtime/sessions/{session_id}/chunks", files=files2, data=data2)
             assert resp2.status_code == 200
 
             # Exactly TWO Aurigin calls made

@@ -7,11 +7,11 @@ Voice Shield provides continuous, low-latency deepfake detection during active c
 - **Authoritative Post-Call Path:** Full recording -> Reality Defender RealAPI -> CallSession Completion
 
 ## 2. Android -> FastAPI Contract
-- POST /api/v1/realtime/sessions: Idempotent session creation
-- POST /api/v1/realtime/sessions/{session_id}/chunks: Multipart chunk upload with sequence number and idempotency key
-- GET /api/v1/realtime/sessions/{session_id}: Realtime session status
-- POST /api/v1/realtime/sessions/{session_id}/complete: Session completion trigger
-- POST /api/v1/realtime/sessions/{session_id}/final-audio: Authoritative audio upload
+- POST /api/v2/realtime/sessions: Idempotent session creation
+- POST /api/v2/realtime/sessions/{session_id}/chunks: Multipart chunk upload with sequence number and idempotency key
+- GET /api/v2/realtime/sessions/{session_id}: Realtime session status
+- POST /api/v2/realtime/sessions/{session_id}/complete: Session completion trigger
+- POST /api/v2/realtime/sessions/{session_id}/final-audio: Authoritative audio upload
 
 ## 3. Provider Protocols & Authentication
 - **Aurigin:** POST /v1/predict with x-api-key. Returns global.result (REAL/SPOOF), confidence. WebSocket: UNVERIFIED.

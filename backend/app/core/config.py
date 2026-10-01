@@ -10,11 +10,17 @@ from dotenv import load_dotenv
 from pydantic import BaseModel, ConfigDict, Field, ValidationError
 
 
+API_VERSION = "v2"
+API_PREFIX = f"/api/{API_VERSION}"
+
+
 class Settings(BaseModel):
     model_config = ConfigDict(protected_namespaces=())
 
-    app_name: str = Field(default="Voice Clone Detection API")
-    app_version: str = Field(default="0.1.0")
+    app_name: str = Field(default="VoiceShield API V2")
+    app_version: str = Field(default="2.0.0")
+    api_version: str = Field(default=API_VERSION)
+    api_prefix: str = Field(default=API_PREFIX)
     database_url: str = Field(default="sqlite:///./voice_clone_detection.db")
     max_upload_size_mb: int = Field(default=25, ge=1, le=500)
     storage_path: str = Field(default="./storage")
@@ -82,8 +88,10 @@ def get_settings() -> Settings:
     raw_origins = os.getenv("CORS_ORIGINS", "http://localhost:3000")
     try:
         settings = Settings(
-            app_name=os.getenv("APP_NAME", "Voice Clone Detection API"),
-            app_version=os.getenv("APP_VERSION", "0.1.0"),
+            app_name=os.getenv("APP_NAME", "VoiceShield API V2"),
+            app_version=os.getenv("APP_VERSION", "2.0.0"),
+            api_version=os.getenv("API_VERSION", API_VERSION),
+            api_prefix=os.getenv("API_PREFIX", API_PREFIX),
             database_url=raw_db_url,
             max_upload_size_mb=int(os.getenv("MAX_UPLOAD_SIZE_MB", "25")),
             storage_path=os.getenv("STORAGE_PATH", "./storage"),

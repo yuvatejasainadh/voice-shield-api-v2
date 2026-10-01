@@ -1,4 +1,4 @@
-"""Unit and API tests for Aurigin voice clone / deepfake file analysis (/analyze & /analysis)."""
+"""Unit and API tests for Aurigin voice clone / deepfake file analysis (/api/v2/analyze & /api/v2/analysis)."""
 
 from __future__ import annotations
 
@@ -55,17 +55,17 @@ MOCK_AURIGIN_AUTHENTIC_RESULT = {
 
 def test_analysis_validation_missing_file() -> None:
     with TestClient(app) as client:
-        response = client.post("/api/v1/analysis")
+        response = client.post("/api/v2/analysis")
         assert response.status_code == 422
 
-        response_alias = client.post("/analyze")
+        response_alias = client.post("/api/v2/analyze")
         assert response_alias.status_code == 422
 
 
 def test_analysis_unsupported_format() -> None:
     with TestClient(app) as client:
         files = {"audio": ("bad.txt", BytesIO(b"not-audio"), "text/plain")}
-        response = client.post("/api/v1/analysis", files=files)
+        response = client.post("/api/v2/analysis", files=files)
         assert response.status_code == 415
         assert response.json()["detail"]["code"] == "UNSUPPORTED_AUDIO_FORMAT"
 
@@ -74,7 +74,7 @@ def test_analysis_aurigin_spoofed() -> None:
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=MOCK_AURIGIN_SPOOFED_RESULT) as mock_analyze:
         with TestClient(app) as client:
             files = {"audio": ("sample.wav", BytesIO(generate_wav_bytes(duration_seconds=1.0)), "audio/wav")}
-            response = client.post("/analyze", files=files)
+            response = client.post("/api/v2/analyze", files=files)
 
             assert response.status_code == 201
             payload = response.json()
@@ -89,12 +89,12 @@ def test_analysis_aurigin_spoofed() -> None:
 
             assert mock_analyze.call_count == 1
 
-            # Check GET /analyze/{id} and /api/v1/analysis/{id}
-            detail_resp = client.get(f"/analyze/{payload['analysis_id']}")
+            # Check GET /api/v2/analyze/{id} and /api/v2/analysis/{id}
+            detail_resp = client.get(f"/api/v2/analyze/{payload['analysis_id']}")
             assert detail_resp.status_code == 200
             assert detail_resp.json()["analysis_id"] == payload["analysis_id"]
 
-            detail_resp2 = client.get(f"/api/v1/analysis/{payload['analysis_id']}")
+            detail_resp2 = client.get(f"/api/v2/analysis/{payload['analysis_id']}")
             assert detail_resp2.status_code == 200
 
 
@@ -102,7 +102,7 @@ def test_analysis_aurigin_authentic() -> None:
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=MOCK_AURIGIN_AUTHENTIC_RESULT):
         with TestClient(app) as client:
             files = {"audio": ("sample.wav", BytesIO(generate_wav_bytes(duration_seconds=1.0)), "audio/wav")}
-            response = client.post("/api/v1/analysis", files=files)
+            response = client.post("/api/v2/analysis", files=files)
 
             assert response.status_code == 201
             payload = response.json()
@@ -126,7 +126,7 @@ def test_analysis_aurigin_not_configured() -> None:
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_not_configured):
         with TestClient(app) as client:
             files = {"audio": ("sample.wav", BytesIO(generate_wav_bytes(duration_seconds=1.0)), "audio/wav")}
-            response = client.post("/analyze", files=files)
+            response = client.post("/api/v2/analyze", files=files)
             assert response.status_code == 503
             assert response.json()["detail"]["code"] == "AURIGIN_NOT_CONFIGURED"
 
@@ -145,7 +145,7 @@ def test_analysis_aurigin_timeout() -> None:
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_timeout):
         with TestClient(app) as client:
             files = {"audio": ("sample.wav", BytesIO(generate_wav_bytes(duration_seconds=1.0)), "audio/wav")}
-            response = client.post("/analyze", files=files)
+            response = client.post("/api/v2/analyze", files=files)
             assert response.status_code == 504
             assert response.json()["detail"]["code"] == "AURIGIN_TIMEOUT"
 
@@ -165,6 +165,6 @@ def test_analysis_aurigin_error() -> None:
     with patch("app.services.aurigin_service.AuriginService.analyze_audio", new_callable=AsyncMock, return_value=mock_error):
         with TestClient(app) as client:
             files = {"audio": ("sample.wav", BytesIO(generate_wav_bytes(duration_seconds=1.0)), "audio/wav")}
-            response = client.post("/analyze", files=files)
+            response = client.post("/api/v2/analyze", files=files)
             assert response.status_code == 502
             assert response.json()["detail"]["code"] == "AURIGIN_ERROR"

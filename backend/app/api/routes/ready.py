@@ -39,7 +39,8 @@ def ready() -> JSONResponse:
         status_code=status_code,
         content={
             "status": "ready" if all_ready else "not_ready",
-            "database": db_ok,
+            "version": "v2",
+            "database": "connected" if db_ok else "disconnected",
             "providers": {
                 "aurigin": aurigin_state,
                 "reality_defender": rd_state,
@@ -48,4 +49,3 @@ def ready() -> JSONResponse:
             "file_analysis_detector": "aurigin",
         },
     )
-
