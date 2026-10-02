@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+voice_clone_detection.db
+
+# Storage & Uploads
+storage/*
+!storage/.gitkeep
+backend/storage/*
+!backend/storage/.gitkeep
+backend/storage/temp/
+
+# Models & HuggingFace
+models/*
+!models/.gitkeep
+backend/models/*
+!backend/models/.gitkeep
+.cache/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

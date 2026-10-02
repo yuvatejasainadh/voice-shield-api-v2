@@ -36,6 +36,7 @@ logger = logging.getLogger("voice-clone-detection")
 @asynccontextmanager
 async def lifespan(_: FastAPI):
     """Initialize persistent storage and database schema at startup."""
+    logger.info("Starting VoiceShield API V2 (environment=%s, dialect=%s)", settings.environment, "sqlite" if settings.is_sqlite else "postgresql")
     init_database()
 
     if settings.aurigin_api_key or settings.aurigin_enabled:

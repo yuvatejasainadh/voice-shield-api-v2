@@ -17,6 +17,7 @@ API_PREFIX = f"/api/{API_VERSION}"
 class Settings(BaseModel):
     model_config = ConfigDict(protected_namespaces=())
 
+    environment: str = Field(default="development")
     app_name: str = Field(default="VoiceShield API V2")
     app_version: str = Field(default="2.0.0")
     api_version: str = Field(default=API_VERSION)
@@ -74,20 +75,58 @@ class Settings(BaseModel):
     def max_upload_size_bytes(self) -> int:
         return self.max_upload_size_mb * 1024 * 1024
 
+    @property
+    def is_production(self) -> bool:
+        return self.environment.strip().lower() == "production"
+
+    @property
+    def is_test(self) -> bool:
+        return self.environment.strip().lower() == "test"
+
+    @property
+    def is_sqlite(self) -> bool:
+        return self.database_url.startswith("sqlite")
+
+    @property
+    def is_postgres(self) -> bool:
+        return self.database_url.startswith("postgresql")
+
 
 @lru_cache
 def get_settings() -> Settings:
     """Load settings once and cache the result for application lifetime."""
     load_dotenv()
-    raw_db_url = os.getenv("DATABASE_URL", "sqlite:///./voice_clone_detection.db")
-    if raw_db_url.startswith("postgres://"):
-        raw_db_url = "postgresql+psycopg://" + raw_db_url[len("postgres://"):]
-    elif raw_db_url.startswith("postgresql://"):
-        raw_db_url = "postgresql+psycopg://" + raw_db_url[len("postgresql://"):]
+    env = os.getenv("ENVIRONMENT", "development").strip().lower()
+    raw_db_url = os.getenv("DATABASE_URL")
+
+    if env == "production":
+        if not raw_db_url or raw_db_url.strip().startswith("sqlite"):
+            raise RuntimeError(
+                "Production environment requires an explicit PostgreSQL DATABASE_URL "
+                "(e.g. postgresql+psycopg://<APP_USER>:<PASSWORD>@<HOST>:5432/<DB>). "
+                "SQLite fallback is strictly forbidden in production."
+            )
+
+    if raw_db_url:
+        if raw_db_url.startswith("postgres://"):
+            raw_db_url = "postgresql+psycopg://" + raw_db_url[len("postgres://"):]
+        elif raw_db_url.startswith("postgresql://"):
+            raw_db_url = "postgresql+psycopg://" + raw_db_url[len("postgresql://"):]
+    else:
+        if env == "test":
+            raw_db_url = "sqlite:///:memory:"
+        else:
+            raw_db_url = "sqlite:///./voice_clone_detection.db"
+
+    if env == "production" and not raw_db_url.startswith("postgresql"):
+        raise RuntimeError(
+            "Production DATABASE_URL must be a PostgreSQL connection string (postgresql+psycopg://...)"
+        )
 
     raw_origins = os.getenv("CORS_ORIGINS", "http://localhost:3000")
     try:
         settings = Settings(
+            environment=env,
             app_name=os.getenv("APP_NAME", "VoiceShield API V2"),
             app_version=os.getenv("APP_VERSION", "2.0.0"),
             api_version=os.getenv("API_VERSION", API_VERSION),

@@ -1,92 +1,52 @@
-# Voice Clone Detection Backend
+# VoiceShield API V2 — Backend
 
-Security-focused backend API for voice anti-spoofing, deepfake detection, and conversational speech-to-text transcription.
+Security-focused backend API for real-time and post-call voice clone & deepfake audio detection, device recording compatibility, Firebase auth, and cybercrime intelligence.
 
 ---
 
-## 🔒 Production Architecture
+## 🔒 Persistence & Production Architecture
 
-The backend leverages cloud-accelerated inference providers for high-speed, reliable analysis:
+VoiceShield V2 uses **PostgreSQL (AWS RDS)** for its persistent data layer, with all schema evolution managed strictly via **Alembic** migrations.
 
 ```text
-                     Android App
-                          │
-                          │ HTTPS
-                          ▼
-              voice-api.asteriontechnologies.tech
-                          │
-                          ▼
-                   FastAPI Backend
-                          │
-                   Audio Validation
-                          │
-             ┌────────────┴────────────┐
-             ▼                         ▼
-        Groq API                  Reality Defender
-    (whisper-large-v3)                RealAPI
-    Speech-to-Text             Deepfake / AI Detection
-             │                         │
-             ▼                         ▼
-         Transcript              Manipulation
-         Timestamps               Probability
-          Language              Classification
-             │                         │
-             └────────────┬────────────┘
-                          ▼
-                 Normalized Response
-                          │
-                          ▼
-                     Android App
+                      Android Client App
+                              │
+                              │ HTTPS / WSS
+                              ▼
+                 FastAPI Backend (VoiceShield V2)
+                              │
+               ┌──────────────┴──────────────┐
+               ▼                             ▼
+        Inference Providers             PostgreSQL / AWS RDS
+    (Aurigin / Reality Defender)        (psycopg3 / SQLAlchemy V2)
+                                             ▲
+                                             │
+                                      Alembic Migrations
 ```
 
----
-
-## 🌐 External Processing & Privacy Notice
-
-> [!IMPORTANT]
-> **Privacy & Data Safety Notice**:
-> Call and voice audio uploaded to this backend is transmitted securely over HTTPS to external third-party processing providers:
-> 1. **Groq Inc.** (`api.groq.com`) — Speech-to-text transcription.
-> 2. **Reality Defender** (`api.prd.realitydefender.xyz`) — Synthetic speech and deepfake manipulation detection.
->
-> **Security Guardrails**:
-> - Provider API keys are strictly server-side environment variables and are **never exposed to client applications**.
-> - Mobile clients (Android) communicate exclusively with our backend (`voice-api.asteriontechnologies.tech`).
-> - Play Store Data Safety and Privacy Policies must accurately disclose that audio data is processed via external AI partners.
-
----
-
-## 🚀 Providers & Capabilities
-
-### 1. Groq Speech-to-Text
-- **Model**: `whisper-large-v3` (OpenAI-compatible STT endpoint)
-- **Endpoint**: `POST https://api.groq.com/openai/v1/audio/transcriptions`
-- **Output**: Full transcript, detected language, and timestamped segments (`start`, `end`, `text`).
-- **Multilingual**: High accuracy on **Telugu** (`te`), **English** (`en`), Indian accents, and code-switched **Tinglish**.
-
-### 2. Reality Defender RealAPI
-- **SDK**: Official `realitydefender` Python SDK (`RealityDefender(api_key=...)`)
-- **Workflow**: Async signed upload followed by bounded result polling.
-- **Output**: Manipulation probability score (0.0–1.0), risk classification, sub-model explainability indicators.
-- **Classification Mapping**:
-  - `0–29%` manipulation probability: `LIKELY_GENUINE`
-  - `30–69%` manipulation probability: `SUSPICIOUS`
-  - `70–100%` manipulation probability: `LIKELY_AI_GENERATED`
-
-### 3. Speaker Diarization
-- Neither Groq nor Reality Defender currently provides speaker diarization.
-- Diarization fields return `"speakers": []` and `"speaker_transcript": []`. Speaker labels are never fabricated.
+### Key Architectural Rules
+- **PostgreSQL in Production**: Production deployments require an explicit PostgreSQL connection string (`DATABASE_URL=postgresql+psycopg://...`).
+- **Fail-Fast Configuration**: If `ENVIRONMENT=production` is active and `DATABASE_URL` is missing or configured with SQLite, application startup immediately terminates with a configuration error.
+- **Alembic Governed**: Production startup does not mutate schemas or call `create_all()`. Migrations are applied via `alembic upgrade head`.
+- **SQLite Role**: SQLite is isolated for local offline development and automated testing only.
 
 ---
 
 ## ⚙️ Environment Configuration
 
-Create a `.env` file in the `backend/` directory:
+Create a `.env` file in the `backend/` directory based on `.env.example`:
 
 ```env
-APP_NAME=Voice Clone Detection API
-APP_VERSION=0.1.0
-DATABASE_URL=sqlite:///./voice_clone_detection.db
+ENVIRONMENT=production
+APP_NAME=VoiceShield API V2
+APP_VERSION=2.0.0
+API_VERSION=v2
+API_PREFIX=/api/v2
+
+# PostgreSQL connection string (AWS RDS or local PostgreSQL)
+DATABASE_URL=postgresql+psycopg://<APP_USER>:<PASSWORD>@<HOST>:5432/<DATABASE>
+
+# Storage & Upload Limits
 MAX_UPLOAD_SIZE_MB=25
 STORAGE_PATH=./storage
 LOG_LEVEL=INFO
@@ -95,14 +55,16 @@ CORS_ORIGINS=http://localhost:3000,http://localhost:8080
 # Risk Thresholds
 RISK_GENUINE_MAX=29
 RISK_SUSPICIOUS_MAX=69
+MAX_AUDIO_DURATION_SECONDS=600
 
-# Groq Speech-to-Text
-GROQ_API_KEY=your_groq_api_key_here
-GROQ_TRANSCRIPTION_MODEL=whisper-large-v3
-GROQ_API_BASE_URL=https://api.groq.com/openai/v1
-GROQ_API_TIMEOUT_SECONDS=60
+# Aurigin Real-Time Detection (Primary In-Call Provider)
+AURIGIN_API_KEY=your_aurigin_api_key_here
+AURIGIN_API_BASE_URL=https://api.aurigin.ai
+AURIGIN_TIMEOUT_SECONDS=30
+AURIGIN_ENABLED=true
+AURIGIN_PROVIDER_VERSION=v1
 
-# Reality Defender RealAPI
+# Reality Defender RealAPI (Deepfake Analysis)
 REALITY_DEFENDER_API_KEY=your_reality_defender_api_key_here
 REALITY_DEFENDER_API_BASE_URL=https://api.prd.realitydefender.xyz
 REALITY_DEFENDER_TIMEOUT_SECONDS=120
@@ -110,72 +72,60 @@ REALITY_DEFENDER_TIMEOUT_SECONDS=120
 
 ---
 
-## 📡 API Endpoints
+## 🗄️ Database Management & Migrations
 
-### 1. `POST /api/v2/analyze` (Main Mobile Endpoint)
-Upload audio for concurrent transcription and voice clone detection:
-
-**Request**:
-`multipart/form-data` with `audio=<binary_data>`.
-
-**Response (200 OK)**:
-```json
-{
-  "analysis_id": "c1f7a2d8-...",
-  "status": "completed",
-  "classification": "LIKELY_GENUINE",
-  "risk_score": 12,
-  "confidence": 0.95,
-  "ai_probability": 0.12,
-  "duration_seconds": 3.2,
-  "segments_analyzed": 1,
-  "processing_time_ms": 1420,
-  "detector_version": "aurigin-v1",
-  "reasons": ["Model verified natural vocal acoustic characteristics"],
-  "created_at": "2026-10-01T20:00:00"
-}
+### 1. Apply Migrations to PostgreSQL
+```powershell
+cd backend
+.\.venv\Scripts\alembic.exe upgrade head
 ```
 
-### 2. `POST /api/v2/analysis`
-Standalone deepfake analysis submission endpoint.
-
-### 3. `GET /api/v2/health`
-Health liveness probe:
-```json
-{
-  "status": "ok",
-  "version": "v2",
-  "service": "voiceshield-api"
-}
+### 2. Inspect Pending SQL Migrations (Offline Mode)
+```powershell
+.\.venv\Scripts\alembic.exe upgrade head --sql
 ```
 
-### 4. `GET /api/v2/ready`
-Reports status of database and provider configurations:
-```json
-{
-  "status": "ready",
-  "version": "v2",
-  "database": "connected",
-  "providers": {
-    "aurigin": "configured",
-    "reality_defender": "configured"
-  },
-  "primary_realtime_detector": "aurigin",
-  "file_analysis_detector": "aurigin"
-}
+### 3. Create a New Migration
+```powershell
+.\.venv\Scripts\alembic.exe revision --autogenerate -m "add_new_columns"
 ```
+
+### 4. SQLite to PostgreSQL Data Migration Tool
+To migrate records from an existing development SQLite database into PostgreSQL:
+```powershell
+# Dry run simulation
+.\.venv\Scripts\python.exe tools/migrate_sqlite_to_postgres.py --source-sqlite voice_clone_detection.db --target-postgres "postgresql+psycopg://user:pass@host:5432/dbname" --dry-run
+
+# Live migration
+.\.venv\Scripts\python.exe tools/migrate_sqlite_to_postgres.py --source-sqlite voice_clone_detection.db --target-postgres "postgresql+psycopg://user:pass@host:5432/dbname"
+```
+
+Detailed migration runbooks are documented in [`docs/DATABASE_MIGRATION.md`](docs/DATABASE_MIGRATION.md).
+
+---
+
+## 📡 Key API Endpoints
+
+- `POST /api/v2/analyze` — Post-call voice clone and manipulation analysis.
+- `POST /api/v2/analysis` — Standalone deepfake analysis submission endpoint.
+- `WS /api/v2/realtime/ws` — Real-time streaming WebSocket endpoint for live call chunk evaluation.
+- `POST /api/v2/device/compatibility` — Hardware discovery & recording format capability resolver.
+- `POST /api/v2/auth/verify-token` — Firebase phone auth token verification & device binding.
+- `GET /api/v2/cybercrime/templates` — Fraud/scam intelligence & incident pattern matching.
+- `GET /api/v2/health` — Service liveness probe.
+- `GET /api/v2/ready` — Component readiness probe (database connectivity and provider configuration).
 
 ---
 
 ## 🧪 Testing
 
-### 1. Run Automated Mocked Tests (Zero external network calls)
+### Run Automated Mocked Tests
 ```powershell
-.\.venv\Scripts\python.exe -m pytest
+cd backend
+.\.venv\Scripts\python.exe -m pytest tests -v
 ```
 
-### 2. Run Real Provider Integration Tests (Optional)
-Requires `GROQ_API_KEY` and `REALITY_DEFENDER_API_KEY` set in `.env`:
+### Run Real Provider Integration Tests (Optional)
 ```powershell
 $env:RUN_REAL_PROVIDER_TESTS="1"
 .\.venv\Scripts\python.exe -m pytest tests/test_real_providers.py -v
@@ -186,5 +136,6 @@ $env:RUN_REAL_PROVIDER_TESTS="1"
 ## 🚀 Running the Server Locally
 
 ```powershell
+cd backend
 .\.venv\Scripts\python.exe -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```

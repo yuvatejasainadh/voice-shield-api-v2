@@ -12,11 +12,15 @@ logger = logging.getLogger("voice-clone-detection")
 settings = get_settings()
 
 is_sqlite = settings.database_url.startswith("sqlite")
-engine_kwargs: dict = {"pool_pre_ping": True}
+engine_kwargs: dict = {}
 
 if is_sqlite:
     engine_kwargs["connect_args"] = {"check_same_thread": False}
+    if ":memory:" in settings.database_url:
+        from sqlalchemy.pool import StaticPool
+        engine_kwargs["poolclass"] = StaticPool
 else:
+    engine_kwargs["pool_pre_ping"] = True
     engine_kwargs["pool_size"] = 10
     engine_kwargs["max_overflow"] = 20
     engine_kwargs["pool_recycle"] = 300
@@ -27,8 +31,11 @@ Base = declarative_base()
 
 
 def upgrade_sqlite_schema() -> None:
-    """Apply additive SQLite schema upgrades for existing Stage 1 databases."""
-    if not settings.database_url.startswith("sqlite"):
+    """Apply additive SQLite schema upgrades for legacy Stage 1 local development databases only.
+
+    Strictly disabled in production and against PostgreSQL engines.
+    """
+    if settings.is_production or not settings.is_sqlite:
         return
 
     with engine.begin() as connection:
@@ -98,12 +105,29 @@ def upgrade_sqlite_schema() -> None:
 
 
 def init_database() -> None:
-    """Initialize database metadata and seed initial reference data safely."""
-    from app.db import models  # noqa: F401
-    Base.metadata.create_all(bind=engine)
-    upgrade_sqlite_schema()
+    """Initialize database metadata and seed initial reference data safely.
 
-    # Automatically seed initial validated device recording compatibility rows
+    In production:
+    - Production schema creation and migrations are managed exclusively by Alembic (`alembic upgrade head`).
+    - Application startup never mutates the production database schema or calls create_all().
+    - Seed data operations are strictly idempotent and non-destructive.
+
+    In development / test:
+    - If running against local SQLite in development, creates tables if missing and applies isolated upgrades.
+    """
+    from app.db import models  # noqa: F401
+
+    if settings.is_production:
+        logger.info("Production environment: Schema management is governed by Alembic migrations.")
+    elif settings.is_sqlite:
+        logger.info("Development/Test SQLite detected: ensuring local tables exist.")
+        Base.metadata.create_all(bind=engine)
+        if not settings.is_test:
+            upgrade_sqlite_schema()
+    elif settings.is_postgres:
+        logger.info("Development PostgreSQL detected. Schema managed via Alembic.")
+
+    # Automatically seed initial validated device recording compatibility rows idempotently
     from app.db.seed_compatibility import seed_device_compatibilities
     with SessionLocal() as seed_session:
         try:
