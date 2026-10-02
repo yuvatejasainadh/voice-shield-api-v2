@@ -53,7 +53,7 @@ def test_realtime_status_endpoint(client: TestClient):
     assert status_data["chunks_processed"] == 0
 
 
-def test_complete_session_endpoint(client: TestClient):
+def test_complete_session_endpoint(client: TestClient, db_session: Session):
     client_sess_id = f"client_{uuid.uuid4().hex[:12]}"
     create_res = client.post(
         "/api/v2/realtime/sessions",
@@ -71,8 +71,16 @@ def test_complete_session_endpoint(client: TestClient):
     assert data["session_id"] == session_id
     assert data["status"] == "CLOSED"
 
+    # Verify persistence directly in call_sessions table via SQLAlchemy ORM
+    saved_session = db_session.execute(
+        select(CallSession).where(CallSession.id == session_id)
+    ).scalar_one_or_none()
+    assert saved_session is not None
+    assert saved_session.client_session_id == client_sess_id
+    assert saved_session.status == "CLOSED"
 
-def test_final_audio_endpoint(client: TestClient):
+
+def test_final_audio_endpoint(client: TestClient, db_session: Session):
     client_sess_id = f"client_{uuid.uuid4().hex[:12]}"
     create_res = client.post(
         "/api/v2/realtime/sessions",
@@ -93,3 +101,43 @@ def test_final_audio_endpoint(client: TestClient):
     assert data["session_id"] == session_id
     assert data["status"] == "COMPLETED"
     assert data["final_risk"] == "LOW"
+
+    # Verify persistence in call_sessions table
+    saved_session = db_session.execute(
+        select(CallSession).where(CallSession.id == session_id)
+    ).scalar_one_or_none()
+    assert saved_session is not None
+    assert saved_session.client_session_id == client_sess_id
+
+
+@pytest.mark.asyncio
+async def test_realtime_session_manager_db_persistence():
+    """Direct test of RealtimeSessionManager._sync_db_session lifecycle."""
+    from app.services.realtime_session_manager import RealtimeSessionManager
+    from app.db.database import SessionLocal
+    manager = RealtimeSessionManager()
+    session_id = str(uuid.uuid4())
+    client_sess_id = f"client_{uuid.uuid4().hex[:12]}"
+
+    active_sess = await manager.create_session(
+        call_session_id=session_id,
+        client_session_id=client_sess_id,
+    )
+    assert active_sess.status == "ACTIVE"
+
+    # Verify DB session created via SessionLocal
+    with SessionLocal() as db:
+        row = db.execute(
+            select(CallSession).where(CallSession.id == session_id)
+        ).scalar_one_or_none()
+        assert row is not None
+        assert row.client_session_id == client_sess_id
+
+    # Close session and verify DB updated
+    await manager.close_session(session_id)
+    with SessionLocal() as db:
+        updated_row = db.execute(
+            select(CallSession).where(CallSession.id == session_id)
+        ).scalar_one_or_none()
+        assert updated_row is not None
+        assert updated_row.status in ("CLOSED", "COMPLETED")

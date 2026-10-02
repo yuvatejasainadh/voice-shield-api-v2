@@ -39,6 +39,8 @@ def test_ready_endpoint_v2(client: TestClient):
     assert data["status"] == "ready"
     assert data["version"] == "v2"
     assert data["database"] in ("connected", "ready", "ok")
+    assert "database_engine" in data
+    assert "migration_revision" in data
 
 
 def test_legacy_v1_routes_not_registered(client: TestClient):
