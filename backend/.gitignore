@@ -1,34 +1,75 @@
+# ==============================================================================
+# VoiceShield Backend Git Ignore Configuration
+# ==============================================================================
+
 # Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 *.so
-.pytest_cache/
 
-# Virtual env
+# Virtual environments
 .venv/
 venv/
+env/
 
-# Environment
+# Environment / secrets
 .env
+.env.*
+!.env.example
 
-# Database
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Databases
 *.db
+*.sqlite
 *.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+voice_clone_detection.db
 
-# IDE
-.vscode/
+# Application storage
+storage/
+storage/*
+!storage/.gitkeep
+storage/temp/
+
+# Generated model / data files
+models/
+models/*
+!models/.gitkeep
+.cache/
+.cache/huggingface/
+
+# Logs
+*.log
+logs/
+logs/*
+
+# Temporary files & Editor artifacts
+*.tmp
+*.temp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
 .idea/
+.vscode/
 
-# Build
+# Build & Tool caches
 build/
 dist/
 *.egg-info/
+.mypy_cache/
+.ruff_cache/
 
-# Storage artifacts
-storage/*
-!storage/.gitkeep
-
-# Model artifacts and Hugging Face cache
-models/*
-!models/.gitkeep
-.cache/huggingface/
+# Generated benchmark output
+benchmark_results/generated/

@@ -1,42 +1,83 @@
+# ==============================================================================
+# VoiceShield Git Ignore Configuration
+# ==============================================================================
+
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
+*.pyd
 *.so
-.pytest_cache/
 
-# Virtual Environment
+# Virtual environments
 .venv/
 venv/
+env/
 ENV/
 
-# Environment Variables
+# Environment / secrets
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
 
 # Databases
 *.db
 *.sqlite
 *.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
 voice_clone_detection.db
 
-# Storage & Uploads
+# Application storage
+storage/
 storage/*
 !storage/.gitkeep
+backend/storage/
 backend/storage/*
 !backend/storage/.gitkeep
 backend/storage/temp/
 
-# Models & HuggingFace
+# Generated model / data files
+models/
 models/*
 !models/.gitkeep
+backend/models/
 backend/models/*
 !backend/models/.gitkeep
 .cache/
+.cache/huggingface/
 
-# IDE & OS
-.idea/
-.vscode/
+# Logs
+*.log
+logs/
+logs/*
+
+# Temporary files & Editor artifacts
+*.tmp
+*.temp
+*.bak
+*.swp
 .DS_Store
 Thumbs.db
+.idea/
+.vscode/
+
+# Build & Tool caches
+build/
+dist/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+
+# Generated benchmark output
+benchmark_results/generated/
+backend/benchmark_results/generated/
